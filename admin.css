@@ -1,0 +1,157 @@
+/* =========================
+   RESET
+   ========================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* =========================
+   BACKGROUND
+   ========================= */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background:
+    linear-gradient(rgba(0,0,0,0.15), rgba(0,0,0,0.15)),
+    linear-gradient(135deg, #c7d2fe, #e0f2fe);
+  padding: 40px;
+}
+
+/* =========================
+   CONTAINER
+   ========================= */
+.admin-container {
+  max-width: 1000px;
+  margin: auto;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 14px 35px rgba(0, 0, 0, 0.2);
+}
+
+/* =========================
+   HEADER
+   ========================= */
+.admin-header {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.logo {
+  width: 90px;
+  margin-bottom: 10px;
+}
+
+.admin-header h1 {
+  color: #1e3a8a;
+  margin-bottom: 6px;
+  font-size: 1.8rem;
+}
+
+.admin-header p {
+  color: #555;
+  font-size: 15px;
+}
+
+/* =========================
+   LOGIN INPUT & BUTTON
+   ========================= */
+input[type="password"] {
+  padding: 12px;
+  width: 260px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+input[type="password"]:focus {
+  outline: none;
+  border-color: #1e3a8a;
+  box-shadow: 0 0 0 2px rgba(30,58,138,0.15);
+}
+
+.primary-btn {
+  padding: 10px 28px;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background: linear-gradient(135deg, #1e3a8a, #2563eb);
+  color: #ffffff;
+}
+
+.primary-btn:hover {
+  opacity: 0.95;
+}
+
+/* =========================
+   TABLE
+   ========================= */
+.table-wrapper {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+thead {
+  background: #1e3a8a;
+  color: #ffffff;
+}
+
+th, td {
+  padding: 12px 14px;
+  text-align: center;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f4f6fa;
+}
+
+tbody tr:hover {
+  background-color: #e8f0ff;
+}
+
+/* =========================
+   SCORE
+   ========================= */
+.score {
+  font-weight: bold;
+  color: #15803d;
+}
+
+/* =========================
+   FOOTER
+   ========================= */
+.admin-footer {
+  margin-top: 25px;
+  text-align: center;
+  font-size: 13px;
+  color: #666;
+}
+
+/* =========================
+   RESPONSIVE
+   ========================= */
+@media (max-width: 600px) {
+  body {
+    padding: 15px;
+  }
+
+  th, td {
+    padding: 8px;
+    font-size: 12px;
+  }
+
+  .logo {
+    width: 70px;
+  }
+
+  input[type="password"] {
+    width: 100%;
+  }
+}

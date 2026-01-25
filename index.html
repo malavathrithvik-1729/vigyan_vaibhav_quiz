@@ -8,11 +8,11 @@
   <!-- MAIN CSS -->
   <link rel="stylesheet" href="style.css">
 
-  <!-- 🔥 FIREBASE SDKs (COMPAT – SAME AS OLD PROJECT) -->
+  <!-- 🔥 FIREBASE SDKs -->
   <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore-compat.js"></script>
 
-  <!-- 🔥 FIREBASE INIT (NEW PROJECT) -->
+  <!-- 🔥 FIREBASE INIT -->
   <script>
     const firebaseConfig = {
       apiKey: "AIzaSyD0iMfVye_Mi-C8Cvaqm6p6YAzip29UGh0",
@@ -23,9 +23,10 @@
       appId: "1:597852932899:web:9dad49c19e65d8bd259a96"
     };
 
-    firebase.initializeApp(firebaseConfig);
+    if (!firebase.apps.length) {
+      firebase.initializeApp(firebaseConfig);
+    }
 
-    // 🔥 GLOBAL DB
     window.db = firebase.firestore();
   </script>
 
@@ -33,31 +34,49 @@
   <script>
     function googleTranslateElementInit() {
       new google.translate.TranslateElement(
-        {
-          pageLanguage: 'en',
-          includedLanguages: 'en,te',
-          layout: google.translate.TranslateElement.InlineLayout.SIMPLE
-        },
+        { pageLanguage: 'en', includedLanguages: 'en,te' },
         'google_translate_element'
       );
     }
   </script>
 
-  <!-- 🔹 BACKGROUND BLUR STYLE (INLINE – SAFE) -->
+  <!-- SPLASH VISUAL ONLY -->
   <style>
-    body {
-      min-height: 100vh;
-      background:
-        linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
-        url("quiz_bg.jpg") center / cover no-repeat fixed;
+    .intro-screen { background: #ffffff; }
+
+    .intro-wrapper {
+      text-align: center;
+      animation: splashFade 1.2s ease;
     }
 
-    .screen::before {
-      content: "";
-      position: fixed;
-      inset: 0;
-      backdrop-filter: blur(10px);
-      z-index: -1;
+    .intro-logo {
+      width: 140px;
+      margin-bottom: 18px;
+    }
+
+    .intro-title {
+      font-size: 1.6rem;
+      font-weight: 600;
+      color: #1f3c88;
+      margin-bottom: 8px;
+    }
+
+    .intro-text {
+      font-size: 1rem;
+      color: #555;
+      line-height: 1.6;
+    }
+
+    .intro-text span {
+      display: block;
+      margin-top: 6px;
+      font-weight: 500;
+      color: #333;
+    }
+
+    @keyframes splashFade {
+      from { opacity: 0; transform: translateY(12px); }
+      to   { opacity: 1; transform: translateY(0); }
     }
   </style>
 </head>
@@ -66,20 +85,21 @@
 
 <!-- ================= SPLASH SCREEN ================= -->
 <div id="introScreen" class="intro-screen">
-  <img src="atl_logo.png" class="intro-logo" alt="ATL Logo">
-  <p class="intro-text">
-    Happy National Science Day 🔬<br>
-    Conducted by School ATL
-  </p>
+  <div class="intro-wrapper">
+    <img src="atl_logo.png" class="intro-logo" alt="ATL Logo">
+    <div class="intro-title">Happy National Science Day 🔬</div>
+    <p class="intro-text">
+      Celebrating Curiosity, Innovation & Scientific Thinking
+      <span>Conducted by School ATL</span>
+    </p>
+  </div>
 </div>
 
 <!-- ================= START SCREEN ================= -->
 <div id="startScreen" class="screen hidden">
-
   <img src="spr_logo.png" class="corner-logo">
 
   <div class="quiz-card">
-
     <div style="text-align:right;margin-bottom:10px;">
       <div id="google_translate_element"></div>
     </div>
@@ -101,7 +121,6 @@
 
 <!-- ================= QUIZ SCREEN ================= -->
 <div id="quizScreen" class="screen hidden">
-
   <img src="spr_logo.png" class="corner-logo">
 
   <div class="question-nav" id="questionNav" translate="no"></div>
@@ -113,7 +132,6 @@
   </div>
 
   <div class="quiz-card">
-
     <div class="progress-container">
       <div class="progress-bar" id="progressBar"></div>
     </div>
@@ -126,21 +144,11 @@
 
     <h2 id="question"></h2>
 
-    <!-- ❌ NO IMAGE (INTENTIONALLY REMOVED) -->
-
     <div id="options">
-      <button class="option-btn" data-option="1" onclick="selectOption(1,this)">
-        A. <span id="o1"></span>
-      </button>
-      <button class="option-btn" data-option="2" onclick="selectOption(2,this)">
-        B. <span id="o2"></span>
-      </button>
-      <button class="option-btn" data-option="3" onclick="selectOption(3,this)">
-        C. <span id="o3"></span>
-      </button>
-      <button class="option-btn" data-option="0" onclick="selectOption(0,this)">
-        D. <span>None of the above</span>
-      </button>
+      <button class="option-btn" data-option="1" onclick="selectOption(1,this)">A. <span id="o1"></span></button>
+      <button class="option-btn" data-option="2" onclick="selectOption(2,this)">B. <span id="o2"></span></button>
+      <button class="option-btn" data-option="3" onclick="selectOption(3,this)">C. <span id="o3"></span></button>
+      <button class="option-btn" data-option="0" onclick="selectOption(0,this)">D. <span>None of the above</span></button>
     </div>
 
     <div style="display:flex;justify-content:space-between;margin-top:20px">
@@ -166,34 +174,25 @@
 
     <h3 id="finalScore"></h3>
 
-    <button class="secondary-btn"
-            id="toggleReviewBtn"
-            style="margin-top:10px"
-            onclick="toggleReview()">
+    <button
+      class="secondary-btn"
+      id="toggleReviewBtn"
+      onclick="toggleReview()">
       Show Answer Review
     </button>
 
-    <div id="reviewWrapper"
-         style="display:none;flex:1;overflow-y:auto;margin-top:15px;
-                border-top:1px solid #ddd;padding-top:10px;">
-      <h4 style="text-align:left;">Answer Review</h4>
+    <div id="reviewWrapper" style="display:none;flex:1;overflow-y:auto;margin-top:15px;">
+      <h4>Answer Review</h4>
       <div id="reviewSection"></div>
     </div>
 
-    <button class="primary-btn" style="margin-top:15px"
-            onclick="location.reload()">
-      Restart Quiz
-    </button>
+    <button class="primary-btn" onclick="location.reload()">Restart Quiz</button>
   </div>
 </div>
 
-<!-- MAIN SCRIPT -->
 <script src="script.js"></script>
-
-<!-- GOOGLE TRANSLATE -->
 <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
-<!-- SPLASH AUTO HIDE -->
 <script>
   setTimeout(() => {
     document.getElementById("introScreen").style.display = "none";
