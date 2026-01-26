@@ -1,0 +1,20 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment / secrets
+.env
+.env.local
+.env.production
+
+# Firebase local config (if added later)
+firebase-debug.log
+.firebaserc
+.firebase/
+
+# Editor settings
+.vscode/
+.idea/
