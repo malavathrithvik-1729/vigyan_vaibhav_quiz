@@ -15,7 +15,14 @@ let username = "";
 fetch("questions.json")
   .then(res => res.json())
   .then(data => {
-    allQuestions = data;
+    allQuestions = data.map(q => ({
+      Question: q.Question || q.QUESTION,
+      "Option 1": q["Option 1"] || q.OPTION1,
+      "Option 2": q["Option 2"] || q.OPTION2,
+      "Option 3": q["Option 3"] || q.OPTION3,
+      "Option 4": q["Option 4"] || q.OPTION4 || "",
+      Answer: q.Answer || ("Option " + q.ANSWER)
+    }));
     console.log("Questions loaded:", allQuestions.length);
   })
   .catch(() => {
@@ -96,10 +103,11 @@ function loadQuestion() {
   document.getElementById("progressBar").style.width =
     ((currentIndex + 1) / quizQuestions.length) * 100 + "%";
 
-  document.getElementById("question").innerText = q.QUESTION;
-  document.getElementById("o1").innerText = q.OPTION1;
-  document.getElementById("o2").innerText = q.OPTION2;
-  document.getElementById("o3").innerText = q.OPTION3;
+  document.getElementById("question").innerText = q.Question;
+  document.getElementById("o1").innerText = q["Option 1"];
+  document.getElementById("o2").innerText = q["Option 2"];
+  document.getElementById("o3").innerText = q["Option 3"];
+  document.getElementById("o4").innerText = q["Option 4"];
 
   document.querySelectorAll(".option-btn").forEach(btn => {
     btn.classList.remove("selected");
@@ -162,7 +170,7 @@ function finishQuiz() {
 function calculateScore() {
   score = 0;
   quizQuestions.forEach((q, i) => {
-    if (userAnswers[i] === q.ANSWER) score++;
+    if (userAnswers[i] === Number(q.Answer.split(" ")[1])) score++;
   });
 }
 
@@ -197,18 +205,20 @@ function buildReview() {
   saveResultToFirebase();
 
   quizQuestions.forEach((q, i) => {
+    const correct = Number(q.Answer.split(" ")[1]);
     const block = document.createElement("div");
+
     block.style.margin = "12px 0";
     block.style.padding = "12px";
     block.style.borderRadius = "8px";
     block.style.border = "1px solid #ccc";
     block.style.background =
-      userAnswers[i] === q.ANSWER ? "#e9f9ef" : "#fdecea";
+      userAnswers[i] === correct ? "#e9f9ef" : "#fdecea";
 
     block.innerHTML = `
-      <p><b>Q${i + 1}.</b> ${q.QUESTION}</p>
+      <p><b>Q${i + 1}.</b> ${q.Question}</p>
       <p>❓ Your Answer: ${getOptionText(q, userAnswers[i])}</p>
-      <p>✅ Correct Answer: ${getOptionText(q, q.ANSWER)}</p>
+      <p>✅ Correct Answer: ${getOptionText(q, correct)}</p>
     `;
     review.appendChild(block);
   });
@@ -218,10 +228,11 @@ function buildReview() {
  * HELPERS
  ************************************************/
 function getOptionText(q, opt) {
-  if (opt === 1) return "A. " + q.OPTION1;
-  if (opt === 2) return "B. " + q.OPTION2;
-  if (opt === 3) return "C. " + q.OPTION3;
-  return "D. None of the above";
+  if (opt === 1) return "1. " + q["Option 1"];
+  if (opt === 2) return "2. " + q["Option 2"];
+  if (opt === 3) return "3. " + q["Option 3"];
+  if (opt === 4) return "4. " + q["Option 4"];
+  return "";
 }
 
 function goBack() {
@@ -278,10 +289,10 @@ function saveResultToFirebase() {
   }
 
   const detailedAnswers = quizQuestions.map((q, i) => ({
-    question: q.QUESTION,
-    correctAnswer: getOptionText(q, q.ANSWER),
+    question: q.Question,
+    correctAnswer: getOptionText(q, Number(q.Answer.split(" ")[1])),
     userAnswer: getOptionText(q, userAnswers[i]),
-    isCorrect: userAnswers[i] === q.ANSWER
+    isCorrect: userAnswers[i] === Number(q.Answer.split(" ")[1])
   }));
 
   db.collection("atl_results").add({
@@ -297,7 +308,7 @@ function saveResultToFirebase() {
 }
 
 /************************************************
- * EXPOSE FUNCTIONS (BUG FIX)
+ * EXPOSE FUNCTIONS
  ************************************************/
 window.startQuiz = startQuiz;
 window.selectOption = selectOption;

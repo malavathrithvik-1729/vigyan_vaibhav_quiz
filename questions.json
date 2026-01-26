@@ -1,72 +1,3986 @@
 [
   {
-    "QUESTION": "Which of the following best represents the first step of the scientific method?",
-    "OPTION1": "Conducting an experiment",
-    "OPTION2": "Making an observation",
-    "OPTION3": "Drawing a conclusion",
-    "ANSWER": 2
+    "Question": "A satellite stays in orbit around Earth. What will happen if its forward speed slowly reduces?",
+    "Option 1": "Gravity will stop acting",
+    "Option 2": "Earth will stop rotating",
+    "Option 3": "It will move to a higher orbit",
+    "Option 4": "It will slowly move closer to Earth",
+    "Answer": "Option 4"
   },
   {
-    "QUESTION": "Which simple machine helps to lift heavy objects using a rope and wheel?",
-    "OPTION1": "Lever",
-    "OPTION2": "Pulley",
-    "OPTION3": "Inclined plane",
-    "ANSWER": 2
+    "Question": "A satellite’s orbit slowly changes over months. What is the main reason?",
+    "Option 1": "Small forces act continuously",
+    "Option 2": "Earth becomes larger",
+    "Option 3": "Satellite colour fades",
+    "Option 4": "Signals become stronger",
+    "Answer": "Option 1"
   },
   {
-    "QUESTION": "What does ATL primarily aim to develop in students?",
-    "OPTION1": "Rote learning skills",
-    "OPTION2": "Innovation and problem-solving skills",
-    "OPTION3": "Only examination performance",
-    "ANSWER": 2
+    "Question": "Why are small fuel burns preferred over one large correction in satellites?",
+    "Option 1": "To cool systems",
+    "Option 2": "To increase gravity",
+    "Option 3": "To make very precise corrections",
+    "Option 4": "To save colour coating",
+    "Answer": "Option 3"
   },
   {
-    "QUESTION": "Which source of energy is renewable?",
-    "OPTION1": "Coal",
-    "OPTION2": "Petroleum",
-    "OPTION3": "Solar energy",
-    "ANSWER": 3
+    "Question": "A communication satellite turns slightly away from Earth. What problem appears first?",
+    "Option 1": "Gravity increases",
+    "Option 2": "Signals miss the ground area",
+    "Option 3": "Orbit collapses",
+    "Option 4": "Satellite falls immediately",
+    "Answer": "Option 2"
   },
   {
-    "QUESTION": "Which gas is essential for respiration in humans?",
-    "OPTION1": "Carbon dioxide",
-    "OPTION2": "Oxygen",
-    "OPTION3": "Nitrogen",
-    "ANSWER": 2
+    "Question": "Why must a geostationary satellite match Earth’s rotation speed?",
+    "Option 1": "To stay above the same location",
+    "Option 2": "To escape gravity",
+    "Option 3": "To avoid sunlight",
+    "Option 4": "To increase power",
+    "Answer": "Option 1"
   },
   {
-    "QUESTION": "Which of the following materials is a good conductor of electricity?",
-    "OPTION1": "Plastic",
-    "OPTION2": "Rubber",
-    "OPTION3": "Copper",
-    "ANSWER": 3
+    "Question": "Why are low-Earth-orbit satellites not ideal for continuous communication?",
+    "Option 1": "Signals are weak",
+    "Option 2": "Fuel runs out fast",
+    "Option 3": "Gravity is stronger",
+    "Option 4": "They move out of view quickly",
+    "Answer": "Option 4"
   },
   {
-    "QUESTION": "What is the main purpose of a prototype in innovation?",
-    "OPTION1": "To decorate the idea",
-    "OPTION2": "To test and improve the idea",
-    "OPTION3": "To market the product",
-    "ANSWER": 2
+    "Question": "A satellite has power but cannot control its direction. Why is it unusable?",
+    "Option 1": "Gravity increases",
+    "Option 2": "Speed becomes zero",
+    "Option 3": "Antennas and panels cannot be aimed",
+    "Option 4": "Power works only on Earth",
+    "Answer": "Option 3"
   },
   {
-    "QUESTION": "Which planet is known as the Red Planet?",
-    "OPTION1": "Earth",
-    "OPTION2": "Mars",
-    "OPTION3": "Jupiter",
-    "ANSWER": 2
+    "Question": "Why do satellites need batteries along with solar panels?",
+    "Option 1": "Batteries work during Earth’s shadow",
+    "Option 2": "Batteries increase speed",
+    "Option 3": "Batteries reduce mass",
+    "Option 4": "Batteries cool systems",
+    "Answer": "Option 1"
   },
   {
-    "QUESTION": "Which of the following helps in reducing plastic pollution?",
-    "OPTION1": "Using single-use plastics",
-    "OPTION2": "Recycling and reusing materials",
-    "OPTION3": "Throwing waste in open areas",
-    "ANSWER": 2
+    "Question": "Why is even tiny space debris dangerous?",
+    "Option 1": "Debris blocks sunlight",
+    "Option 2": "High speed causes serious damage",
+    "Option 3": "Debris attracts gravity",
+    "Option 4": "Debris is radioactive",
+    "Answer": "Option 2"
   },
   {
-    "QUESTION": "What does innovation mainly involve?",
-    "OPTION1": "Copying existing ideas",
-    "OPTION2": "Creating new or improved solutions",
-    "OPTION3": "Avoiding problems",
-    "ANSWER": 2
+    "Question": "Why are satellites constantly tracked from Earth?",
+    "Option 1": "To repaint them",
+    "Option 2": "To change colour",
+    "Option 3": "To slow them down",
+    "Option 4": "To monitor position and health",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "What happens if a satellite exceeds its planned speed?",
+    "Option 1": "It falls instantly",
+    "Option 2": "It becomes stationary",
+    "Option 3": "It may escape Earth’s gravity",
+    "Option 4": "It loses power",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why is accurate timing critical in navigation satellites?",
+    "Option 1": "To reduce heat",
+    "Option 2": "Time errors cause large position errors",
+    "Option 3": "To increase gravity",
+    "Option 4": "To save fuel",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why are satellites tested for vibration before launch?",
+    "Option 1": "To reduce speed",
+    "Option 2": "To increase weight",
+    "Option 3": "Launch forces can damage parts",
+    "Option 4": "To improve appearance",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "What is the immediate effect if solar panels stop facing the Sun?",
+    "Option 1": "Power supply reduces",
+    "Option 2": "Orbit changes",
+    "Option 3": "Gravity increases",
+    "Option 4": "Speed drops",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "Why is fuel considered the life-limiting factor of satellites?",
+    "Option 1": "Fuel blocks radiation",
+    "Option 2": "Fuel adds colour",
+    "Option 3": "Fuel is needed for orbit corrections",
+    "Option 4": "Fuel increases mass",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why are backup systems built into satellites?",
+    "Option 1": "To look advanced",
+    "Option 2": "To reduce testing",
+    "Option 3": "To continue working after failures",
+    "Option 4": "To slow movement",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "A satellite sends weak data but ignores commands. What likely failed?",
+    "Option 1": "Control and command system",
+    "Option 2": "Orbit system",
+    "Option 3": "Gravity control",
+    "Option 4": "Antenna size",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "Why are satellite antennas carefully shaped and pointed?",
+    "Option 1": "To reduce speed",
+    "Option 2": "To increase mass",
+    "Option 3": "For appearance",
+    "Option 4": "To focus signals accurately",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "Why does extreme temperature affect satellite electronics?",
+    "Option 1": "Gravity weakens",
+    "Option 2": "Speed changes",
+    "Option 3": "Electronics have operating limits",
+    "Option 4": "Colour fades",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why is lightweight design important for satellites?",
+    "Option 1": "To avoid sunlight",
+    "Option 2": "To reduce launch cost",
+    "Option 3": "To increase gravity",
+    "Option 4": "To improve signals",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why does a satellite need thermal control even though space is cold?",
+    "Option 1": "Sunlight heats parts unevenly",
+    "Option 2": "Space has no gravity",
+    "Option 3": "Air friction heats it",
+    "Option 4": "Earth reflects heat",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "What happens if a satellite rotates faster than planned?",
+    "Option 1": "Orbit becomes higher",
+    "Option 2": "Power increases",
+    "Option 3": "Antennas lose correct pointing",
+    "Option 4": "It gains mass",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why are satellites designed to work for many years without repair?",
+    "Option 1": "Signals are weak",
+    "Option 2": "Repair in space is very difficult",
+    "Option 3": "Gravity is unstable",
+    "Option 4": "Repairs are easy",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why is exact mass calculation important before launch?",
+    "Option 1": "Mass improves signals",
+    "Option 2": "Mass changes Earth gravity",
+    "Option 3": "Launch and control depend on mass",
+    "Option 4": "Colour depends on mass",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why do satellites sometimes change operating modes?",
+    "Option 1": "To increase speed",
+    "Option 2": "To change orbit",
+    "Option 3": "To save power during problems",
+    "Option 4": "To look different",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why is power management critical in satellites?",
+    "Option 1": "Power affects gravity",
+    "Option 2": "Power sources are limited",
+    "Option 3": "Power improves colour",
+    "Option 4": "Power increases automatically",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why do satellites avoid unnecessary movement?",
+    "Option 1": "Movement reduces heat",
+    "Option 2": "Movement improves accuracy",
+    "Option 3": "Movement increases speed",
+    "Option 4": "Movement uses limited fuel",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "Why are satellites tested for strong vibration before launch?",
+    "Option 1": "Gravity changes",
+    "Option 2": "Signals cause vibration",
+    "Option 3": "Launch causes heavy shaking",
+    "Option 4": "Space vibrates",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why is direction control important during rocket launch?",
+    "Option 1": "Direction affects sunlight",
+    "Option 2": "Direction affects gravity",
+    "Option 3": "Small errors grow into big orbit errors",
+    "Option 4": "Colour fades",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why do satellites not face sensors directly at the Sun?",
+    "Option 1": "Orbit changes",
+    "Option 2": "Signals weaken",
+    "Option 3": "Sun attracts gravity",
+    "Option 4": "Strong light can damage sensors",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "Why are satellites designed with multiple communication paths?",
+    "Option 1": "To reduce gravity",
+    "Option 2": "To increase speed",
+    "Option 3": "To increase mass",
+    "Option 4": "To avoid total failure if one path fails",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "Why is satellite software monitored after launch?",
+    "Option 1": "To increase size",
+    "Option 2": "Errors can appear over time",
+    "Option 3": "To reduce heat",
+    "Option 4": "Software never fails",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why is space radiation dangerous for satellites?",
+    "Option 1": "Radiation improves signals",
+    "Option 2": "Radiation increases speed",
+    "Option 3": "Radiation damages electronics",
+    "Option 4": "Radiation cools systems",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why are satellites placed at specific heights?",
+    "Option 1": "Height reduces gravity",
+    "Option 2": "Height increases power",
+    "Option 3": "Height affects coverage and purpose",
+    "Option 4": "Height changes colour",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why is satellite data compressed before sending to Earth?",
+    "Option 1": "To increase gravity",
+    "Option 2": "To reduce heat",
+    "Option 3": "To save bandwidth and storage",
+    "Option 4": "To slow signals",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why do satellites use special outer materials?",
+    "Option 1": "To increase speed",
+    "Option 2": "For decoration",
+    "Option 3": "To change orbit",
+    "Option 4": "To handle heat and radiation",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "Why is precise timing important in navigation satellites?",
+    "Option 1": "To reduce gravity",
+    "Option 2": "To improve colour",
+    "Option 3": "Time errors cause position errors",
+    "Option 4": "To save fuel",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why are satellites controlled even after automation?",
+    "Option 1": "Signals are slow",
+    "Option 2": "Gravity changes",
+    "Option 3": "Automation always fails",
+    "Option 4": "Human decisions are still needed",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "Why do satellites have end-of-life plans?",
+    "Option 1": "To change colour",
+    "Option 2": "To improve signals",
+    "Option 3": "To increase speed",
+    "Option 4": "To reduce long-term space debris",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "Why is satellite mission planning complex?",
+    "Option 1": "Gravity changes daily",
+    "Option 2": "Satellites move randomly",
+    "Option 3": "Many systems must work together",
+    "Option 4": "Many colours are used",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why is temperature control difficult for satellites in space?",
+    "Option 1": "Heat spreads unevenly without air",
+    "Option 2": "Space is very cold",
+    "Option 3": "Gravity increases heat",
+    "Option 4": "Earth reflects heat",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "What happens if a satellite loses orientation control?",
+    "Option 1": "It gains mass",
+    "Option 2": "It moves faster",
+    "Option 3": "Antennas may point wrongly",
+    "Option 4": "Orbit becomes circular",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why are satellites designed for long life without repair?",
+    "Option 1": "Space repair is very difficult",
+    "Option 2": "Signals weaken over time",
+    "Option 3": "Gravity changes",
+    "Option 4": "Fuel increases",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "Why is satellite mass kept as low as possible?",
+    "Option 1": "To reduce launch fuel and cost",
+    "Option 2": "To improve colour",
+    "Option 3": "To increase gravity",
+    "Option 4": "To slow rotation",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "Why do satellites shut down non-essential systems during faults?",
+    "Option 1": "To confuse users",
+    "Option 2": "To save power",
+    "Option 3": "To change orbit",
+    "Option 4": "To increase speed",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why is exact timing important in navigation satellites?",
+    "Option 1": "To reduce heat",
+    "Option 2": "To save fuel",
+    "Option 3": "Time errors cause position errors",
+    "Option 4": "To change orbit",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why do satellites need constant position monitoring?",
+    "Option 1": "To repaint them",
+    "Option 2": "To slow them down",
+    "Option 3": "To increase mass",
+    "Option 4": "To track orbit and health",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "Why is space radiation dangerous to satellites?",
+    "Option 1": "It increases speed",
+    "Option 2": "It improves signals",
+    "Option 3": "It damages electronics",
+    "Option 4": "It cools systems",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why are satellites launched above Earth’s atmosphere?",
+    "Option 1": "To avoid air resistance",
+    "Option 2": "To increase gravity",
+    "Option 3": "To change colour",
+    "Option 4": "To slow down",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "Why do satellites use backup systems?",
+    "Option 1": "To increase size",
+    "Option 2": "To continue working after failures",
+    "Option 3": "To reduce speed",
+    "Option 4": "To save paint",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why are satellites tested for vibration before launch?",
+    "Option 1": "Space vibrates",
+    "Option 2": "Launch shaking can damage parts",
+    "Option 3": "Gravity changes",
+    "Option 4": "Signals vibrate",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why can small control errors become serious in space?",
+    "Option 1": "No air to slow mistakes",
+    "Option 2": "Errors disappear",
+    "Option 3": "Gravity fixes errors",
+    "Option 4": "Speed reduces automatically",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "Why do satellites avoid frequent orbit changes?",
+    "Option 1": "Orbit changes improve accuracy",
+    "Option 2": "Orbit changes are automatic",
+    "Option 3": "Orbit changes use a lot of fuel",
+    "Option 4": "Orbit changes reduce gravity",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why do satellites have limited fuel onboard?",
+    "Option 1": "Fuel becomes heavier",
+    "Option 2": "Fuel is only for emergencies",
+    "Option 3": "Fuel is used only for corrections",
+    "Option 4": "Fuel increases gravity",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why are satellite missions planned years in advance?",
+    "Option 1": "To increase delay",
+    "Option 2": "To manage risks and resources",
+    "Option 3": "To change colour",
+    "Option 4": "To slow launch",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why do satellites use special outer coatings?",
+    "Option 1": "For decoration",
+    "Option 2": "To improve signals",
+    "Option 3": "To handle heat and radiation",
+    "Option 4": "To increase speed",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why are some satellites moved to graveyard orbits?",
+    "Option 1": "To reuse them",
+    "Option 2": "To increase coverage",
+    "Option 3": "To avoid collisions",
+    "Option 4": "To save power",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why is ground control still needed after automation?",
+    "Option 1": "Automation is slow",
+    "Option 2": "Human decisions are required",
+    "Option 3": "Signals are weak",
+    "Option 4": "Gravity changes",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why is end-of-life planning important for satellites?",
+    "Option 1": "To reduce long-term space debris",
+    "Option 2": "To increase speed",
+    "Option 3": "To change orbit colour",
+    "Option 4": "To save fuel",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "Why is satellite mission planning complex?",
+    "Option 1": "Many systems must work together",
+    "Option 2": "Gravity changes daily",
+    "Option 3": "Satellites move randomly",
+    "Option 4": "Too many colours",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "Why do satellites use reaction wheels?",
+    "Option 1": "To generate power",
+    "Option 2": "To reduce heat",
+    "Option 3": "To control orientation without fuel",
+    "Option 4": "To increase speed",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why is satellite drag still present in low Earth orbit?",
+    "Option 1": "Thin atmosphere causes resistance",
+    "Option 2": "Gravity becomes weak",
+    "Option 3": "Sunlight slows satellites",
+    "Option 4": "Earth rotation causes drag",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "Why do satellites carry limited fuel only?",
+    "Option 1": "Fuel increases mass and cost",
+    "Option 2": "Fuel is easy to refill",
+    "Option 3": "Fuel is used for continuous thrust",
+    "Option 4": "Fuel improves signals",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "Why is ground station visibility important for satellites?",
+    "Option 1": "To repaint satellites",
+    "Option 2": "To change orbit",
+    "Option 3": "To reduce gravity",
+    "Option 4": "To send commands and receive data",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why do satellites switch to safe mode during faults?",
+    "Option 1": "To improve signals",
+    "Option 2": "To protect systems automatically",
+    "Option 3": "To increase speed",
+    "Option 4": "To change orbit",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why are satellites often launched in stages?",
+    "Option 1": "To improve colour",
+    "Option 2": "To increase gravity",
+    "Option 3": "To reduce heat",
+    "Option 4": "To efficiently reach required speed",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "Why do satellites use magnetorquers?",
+    "Option 1": "To control orientation using Earth’s magnetic field",
+    "Option 2": "To generate electricity",
+    "Option 3": "To reduce drag",
+    "Option 4": "To increase orbit height",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "Why is precise alignment needed for satellite antennas?",
+    "Option 1": "To increase mass",
+    "Option 2": "To avoid sunlight",
+    "Option 3": "To focus signals accurately",
+    "Option 4": "To reduce fuel use",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why is satellite testing done in clean rooms?",
+    "Option 1": "To avoid dust contamination",
+    "Option 2": "To reduce gravity",
+    "Option 3": "To increase speed",
+    "Option 4": "To cool systems",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "Why do satellites use star sensors?",
+    "Option 1": "To observe stars",
+    "Option 2": "To determine orientation in space",
+    "Option 3": "To generate power",
+    "Option 4": "To reduce heat",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why are satellites not refuelled easily after launch?",
+    "Option 1": "Refuelling is costly",
+    "Option 2": "Refuelling technology is limited in orbit",
+    "Option 3": "Fuel is unlimited",
+    "Option 4": "Gravity prevents refuelling",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why are satellite structures made rigid?",
+    "Option 1": "To improve appearance",
+    "Option 2": "To reduce signals",
+    "Option 3": "To handle launch stress and vibrations",
+    "Option 4": "To increase speed",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "Why are satellites placed in specific orbital slots?",
+    "Option 1": "To increase gravity",
+    "Option 2": "To avoid sunlight",
+    "Option 3": "To reduce launch cost",
+    "Option 4": "To prevent interference with others",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "Why is satellite altitude carefully maintained?",
+    "Option 1": "To improve colour",
+    "Option 2": "To ensure correct coverage and operation",
+    "Option 3": "To reduce gravity",
+    "Option 4": "To increase heat",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why do satellites have onboard fault detection?",
+    "Option 1": "To increase mass",
+    "Option 2": "To save power",
+    "Option 3": "To identify and respond to problems",
+    "Option 4": "To change orbit",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why do satellites sometimes reduce data transmission rate?",
+    "Option 1": "To save power and manage bandwidth",
+    "Option 2": "To improve colour",
+    "Option 3": "To increase gravity",
+    "Option 4": "To reduce speed",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "Why is space debris tracking becoming more important?",
+    "Option 1": "To increase coverage",
+    "Option 2": "To reduce collision risk",
+    "Option 3": "To improve signals",
+    "Option 4": "To change orbit colour",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why do satellites use multiple sensors for orientation?",
+    "Option 1": "Sensors look better",
+    "Option 2": "To increase speed",
+    "Option 3": "To cross-check and improve accuracy",
+    "Option 4": "To reduce heat",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "Why are satellite missions insured?",
+    "Option 1": "To increase cost",
+    "Option 2": "To reduce gravity",
+    "Option 3": "To cover risk of failure",
+    "Option 4": "To improve performance",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "Why do satellites require complex mission planning?",
+    "Option 1": "Missions are short",
+    "Option 2": "Gravity changes daily",
+    "Option 3": "Many systems must work together",
+    "Option 4": "Satellites move randomly",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why do satellites use sun sensors?",
+    "Option 1": "To measure heat",
+    "Option 2": "To detect Sun position for orientation",
+    "Option 3": "To generate power",
+    "Option 4": "To reduce gravity",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why is satellite software tested again after updates?",
+    "Option 1": "To increase size",
+    "Option 2": "To change orbit",
+    "Option 3": "To ensure updates do not cause failures",
+    "Option 4": "To reduce speed",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why are satellites designed with deployable parts?",
+    "Option 1": "To increase mass",
+    "Option 2": "To fit inside launch vehicles",
+    "Option 3": "To reduce gravity",
+    "Option 4": "To avoid sunlight",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why is satellite communication encrypted?",
+    "Option 1": "To slow signals",
+    "Option 2": "To save power",
+    "Option 3": "To prevent unauthorised access",
+    "Option 4": "To improve colour",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why do satellites carry both analog and digital systems?",
+    "Option 1": "To increase weight",
+    "Option 2": "To reduce cost",
+    "Option 3": "For flexibility and reliability",
+    "Option 4": "To change orbit",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why is satellite attitude checked frequently?",
+    "Option 1": "To improve appearance",
+    "Option 2": "To ensure correct pointing",
+    "Option 3": "To reduce heat",
+    "Option 4": "To increase speed",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why are satellites tested for electromagnetic interference?",
+    "Option 1": "To increase signal strength",
+    "Option 2": "To ensure systems do not disturb each other",
+    "Option 3": "To reduce gravity",
+    "Option 4": "To improve colour",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why do satellites have limited moving parts?",
+    "Option 1": "To look simple",
+    "Option 2": "To reduce failure chances",
+    "Option 3": "To increase speed",
+    "Option 4": "To improve signals",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why is satellite payload separated from the bus?",
+    "Option 1": "To increase mass",
+    "Option 2": "To reduce heat",
+    "Option 3": "To allow different missions on same platform",
+    "Option 4": "To reduce gravity",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why are satellites sometimes repositioned in orbit?",
+    "Option 1": "To change colour",
+    "Option 2": "To cover new areas or replace failed ones",
+    "Option 3": "To increase gravity",
+    "Option 4": "To save fuel",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why do satellites use error-checking in data transmission?",
+    "Option 1": "To increase speed",
+    "Option 2": "To reduce heat",
+    "Option 3": "To detect and correct data errors",
+    "Option 4": "To save fuel",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why is satellite ground testing done using simulations?",
+    "Option 1": "To reduce cost",
+    "Option 2": "To mimic space conditions safely",
+    "Option 3": "To change orbit",
+    "Option 4": "To increase gravity",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why are satellites sometimes put into standby mode?",
+    "Option 1": "To save power during low activity",
+    "Option 2": "To increase speed",
+    "Option 3": "To improve colour",
+    "Option 4": "To change orbit",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "Why is precise pointing needed for space telescopes?",
+    "Option 1": "To increase mass",
+    "Option 2": "To avoid gravity",
+    "Option 3": "To observe small distant objects",
+    "Option 4": "To reduce heat",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why do satellites use onboard data processing?",
+    "Option 1": "To reduce storage needs",
+    "Option 2": "To increase gravity",
+    "Option 3": "To speed up launch",
+    "Option 4": "To change orbit",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "Why is satellite lifetime affected by radiation exposure?",
+    "Option 1": "Radiation cools systems",
+    "Option 2": "Radiation improves signals",
+    "Option 3": "Radiation damages components over time",
+    "Option 4": "Radiation changes orbit",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why are satellites designed with fail-safe modes?",
+    "Option 1": "To increase size",
+    "Option 2": "To automatically protect systems",
+    "Option 3": "To reduce gravity",
+    "Option 4": "To improve colour",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why do satellites need precise orbital calculations?",
+    "Option 1": "To increase speed",
+    "Option 2": "To avoid sunlight",
+    "Option 3": "To ensure correct coverage and safety",
+    "Option 4": "To reduce mass",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why are satellites sometimes moved slightly within their orbit?",
+    "Option 1": "To improve colour",
+    "Option 2": "To maintain spacing with others",
+    "Option 3": "To increase gravity",
+    "Option 4": "To reduce heat",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why is satellite mission documentation detailed?",
+    "Option 1": "To increase cost",
+    "Option 2": "To improve colour",
+    "Option 3": "To help long-term operation and control",
+    "Option 4": "To reduce gravity",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why are ISRO missions known for lower cost?",
+    "Option 1": "It avoids testing",
+    "Option 2": "It plans missions carefully",
+    "Option 3": "It launches fewer rockets",
+    "Option 4": "It avoids new technology",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why are rockets designed in stages?",
+    "Option 1": "To reduce weight as fuel burns",
+    "Option 2": "To increase gravity",
+    "Option 3": "To slow down",
+    "Option 4": "To improve colour",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "Why is Sriharikota suitable for rocket launches?",
+    "Option 1": "Cold climate",
+    "Option 2": "Near the equator helps rockets",
+    "Option 3": "Close to capital",
+    "Option 4": "Large population",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why is PSLV called a reliable launch vehicle?",
+    "Option 1": "It is the fastest",
+    "Option 2": "It is reused",
+    "Option 3": "It has many successful missions",
+    "Option 4": "It is very large",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why are many ground tests done before launch?",
+    "Option 1": "To increase cost",
+    "Option 2": "To improve appearance",
+    "Option 3": "To detect small faults early",
+    "Option 4": "To change orbit",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why are Earth-observation satellites important for India?",
+    "Option 1": "Improve TV signals",
+    "Option 2": "Reduce fuel use",
+    "Option 3": "Increase gravity",
+    "Option 4": "Help farming and disasters",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "Why was Gaganyaan planned?",
+    "Option 1": "To study Moon only",
+    "Option 2": "To test foreign rockets",
+    "Option 3": "To send humans to space",
+    "Option 4": "To improve signals",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why is cryogenic engine technology important?",
+    "Option 1": "Avoids staging",
+    "Option 2": "Reduces gravity",
+    "Option 3": "Allows heavier payloads",
+    "Option 4": "Shortens launch",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why does ISRO improve technology step by step?",
+    "Option 1": "Avoid innovation",
+    "Option 2": "Reduce risk of failure",
+    "Option 3": "Slow progress",
+    "Option 4": "Reduce staff",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why are tracking stations required?",
+    "Option 1": "Store fuel",
+    "Option 2": "Control gravity",
+    "Option 3": "Communicate with satellites",
+    "Option 4": "Launch rockets",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why did India develop NavIC?",
+    "Option 1": "Replace GPS",
+    "Option 2": "Save fuel",
+    "Option 3": "Reduce satellites",
+    "Option 4": "Independent navigation",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "Why is DRDO important for India?",
+    "Option 1": "Controls ISRO",
+    "Option 2": "Studies planets",
+    "Option 3": "Develops defence technology",
+    "Option 4": "Launches rockets",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why are unmanned missions done first?",
+    "Option 1": "Increase cost",
+    "Option 2": "Reduce gravity",
+    "Option 3": "Test safety and systems",
+    "Option 4": "Speed up launches",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why are weather satellites important?",
+    "Option 1": "Improve internet",
+    "Option 2": "Increase signals",
+    "Option 3": "Reduce fuel",
+    "Option 4": "Predict cyclones and rain",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "Why is teamwork important in big science projects?",
+    "Option 1": "Reduce thinking",
+    "Option 2": "Avoid testing",
+    "Option 3": "Reduce accuracy",
+    "Option 4": "Combine different skills",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "Why does India promote indigenous technology?",
+    "Option 1": "Avoid learning",
+    "Option 2": "Slow growth",
+    "Option 3": "Increase cost",
+    "Option 4": "Reduce dependence on others",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "Why does ISRO work on Earth-focused missions?",
+    "Option 1": "Deep space easier",
+    "Option 2": "Avoid innovation",
+    "Option 3": "Save fuel",
+    "Option 4": "Earth data helps people",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "Why are private space startups growing in India?",
+    "Option 1": "Space cheap",
+    "Option 2": "ISRO stopped",
+    "Option 3": "Satellites unused",
+    "Option 4": "Government supports innovation",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "Why is reliability more important than speed in missions?",
+    "Option 1": "Speed saves fuel",
+    "Option 2": "Speed improves signals",
+    "Option 3": "Failure destroys mission",
+    "Option 4": "Speed reduces gravity",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why are science institutions important for India?",
+    "Option 1": "Reduce population",
+    "Option 2": "Replace schools",
+    "Option 3": "Slow development",
+    "Option 4": "Support research and innovation",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "Why does ISRO reuse proven rocket designs instead of changing everything?",
+    "Option 1": "To avoid innovation",
+    "Option 2": "To reduce risk of failure",
+    "Option 3": "To save fuel only",
+    "Option 4": "To reduce staff",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why are launch vehicles tested stage by stage?",
+    "Option 1": "To improve colour",
+    "Option 2": "To find problems in each stage",
+    "Option 3": "To increase gravity",
+    "Option 4": "To slow the rocket",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why are communication satellites placed very high above Earth?",
+    "Option 1": "To avoid air",
+    "Option 2": "To cover a large area",
+    "Option 3": "To reduce fuel",
+    "Option 4": "To increase speed",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why does ISRO focus strongly on mission planning?",
+    "Option 1": "Planning reduces cost overruns",
+    "Option 2": "Planning increases launch speed",
+    "Option 3": "Planning avoids testing",
+    "Option 4": "Planning reduces gravity",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "Why are satellites checked repeatedly after launch?",
+    "Option 1": "To repaint them",
+    "Option 2": "To change orbit",
+    "Option 3": "To monitor health and performance",
+    "Option 4": "To increase mass",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why is India investing in space-based internet and communication?",
+    "Option 1": "To replace phones",
+    "Option 2": "To improve national connectivity",
+    "Option 3": "To reduce satellites",
+    "Option 4": "To avoid innovation",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why are scientific payloads separated from service systems in satellites?",
+    "Option 1": "To reduce weight",
+    "Option 2": "To allow flexibility in missions",
+    "Option 3": "To increase gravity",
+    "Option 4": "To improve colour",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why is precise time synchronisation important in satellite networks?",
+    "Option 1": "To save fuel",
+    "Option 2": "To reduce heat",
+    "Option 3": "Timing errors affect data accuracy",
+    "Option 4": "To increase speed",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why are rockets launched only during specific time windows?",
+    "Option 1": "Weather is always bad",
+    "Option 2": "Earth’s position must be correct",
+    "Option 3": "Fuel becomes cheaper",
+    "Option 4": "Gravity changes",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why does ISRO perform unmanned test missions before major projects?",
+    "Option 1": "To delay projects",
+    "Option 2": "To reduce public interest",
+    "Option 3": "To validate systems safely",
+    "Option 4": "To increase cost",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why are indigenous launch vehicles important for India?",
+    "Option 1": "To avoid space",
+    "Option 2": "To reduce dependence on other nations",
+    "Option 3": "To reduce gravity",
+    "Option 4": "To improve colour",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why is reliability valued more than speed in Indian space missions?",
+    "Option 1": "Speed wastes fuel",
+    "Option 2": "Failure causes total loss",
+    "Option 3": "Speed improves signals",
+    "Option 4": "Speed reduces gravity",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why are satellite control centres spread across different locations?",
+    "Option 1": "To increase cost",
+    "Option 2": "To reduce risk of total control loss",
+    "Option 3": "To increase speed",
+    "Option 4": "To avoid sunlight",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why does ISRO collaborate with academic institutions?",
+    "Option 1": "To reduce staff",
+    "Option 2": "To combine research and innovation",
+    "Option 3": "To avoid testing",
+    "Option 4": "To slow progress",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why are Earth-observation satellites updated with new sensors?",
+    "Option 1": "To improve colour",
+    "Option 2": "To collect better data",
+    "Option 3": "To increase gravity",
+    "Option 4": "To save fuel",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why is miniaturisation important in modern Indian satellites?",
+    "Option 1": "To increase size",
+    "Option 2": "To reduce mass and cost",
+    "Option 3": "To avoid testing",
+    "Option 4": "To increase gravity",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why does ISRO encourage private companies in space missions?",
+    "Option 1": "To stop ISRO work",
+    "Option 2": "To increase competition only",
+    "Option 3": "To expand innovation ecosystem",
+    "Option 4": "To reduce launches",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why are satellite missions reviewed even after success?",
+    "Option 1": "To find faults and improve future missions",
+    "Option 2": "To reduce cost",
+    "Option 3": "To increase speed",
+    "Option 4": "To change orbit",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "Why is long-term planning critical in India’s science missions?",
+    "Option 1": "Missions are short",
+    "Option 2": "Technology needs continuity",
+    "Option 3": "Planning reduces gravity",
+    "Option 4": "Planning avoids science",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why are multiple communication links used in modern satellites?",
+    "Option 1": "To improve colour",
+    "Option 2": "To ensure backup and reliability",
+    "Option 3": "To increase mass",
+    "Option 4": "To reduce speed",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why does ISRO focus on accuracy rather than speed during launches?",
+    "Option 1": "Accuracy decides mission success",
+    "Option 2": "Speed reduces gravity",
+    "Option 3": "Speed improves signals",
+    "Option 4": "Accuracy saves fuel only",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "Why are satellites launched only after weather clearance?",
+    "Option 1": "Rain damages electronics",
+    "Option 2": "Wind and storms affect launch safety",
+    "Option 3": "Clouds block signals",
+    "Option 4": "Weather changes orbit",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why are Indian rockets tested stage by stage?",
+    "Option 1": "To improve colour",
+    "Option 2": "To slow rockets",
+    "Option 3": "To find problems in each stage",
+    "Option 4": "To increase gravity",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why is satellite mission planning done years in advance?",
+    "Option 1": "To increase cost",
+    "Option 2": "To reduce innovation",
+    "Option 3": "Many systems must work together",
+    "Option 4": "To avoid testing",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why are satellites placed in specific orbital slots?",
+    "Option 1": "To avoid interference with others",
+    "Option 2": "To reduce gravity",
+    "Option 3": "To increase speed",
+    "Option 4": "To save fuel",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "Why does ISRO review missions even after success?",
+    "Option 1": "To celebrate only",
+    "Option 2": "To improve future missions",
+    "Option 3": "To change orbit",
+    "Option 4": "To reduce funding",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why is miniaturisation important in Indian satellites?",
+    "Option 1": "To reduce mass and cost",
+    "Option 2": "To increase size",
+    "Option 3": "To improve colour",
+    "Option 4": "To slow rotation",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "Why are multiple tracking stations used in space missions?",
+    "Option 1": "To store fuel",
+    "Option 2": "To increase speed",
+    "Option 3": "To maintain contact at all times",
+    "Option 4": "To reduce gravity",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why does ISRO build satellites with modular design?",
+    "Option 1": "To increase size",
+    "Option 2": "To simplify testing and repair",
+    "Option 3": "To reduce speed",
+    "Option 4": "To avoid innovation",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why are satellite control centres spread across locations?",
+    "Option 1": "To reduce cost",
+    "Option 2": "To increase gravity",
+    "Option 3": "To avoid sunlight",
+    "Option 4": "To reduce risk of total failure",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "Why are Indian satellites designed for long life?",
+    "Option 1": "Space repair is very difficult",
+    "Option 2": "To increase cost",
+    "Option 3": "To improve colour",
+    "Option 4": "To reduce speed",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "Why is encrypted communication used in satellites?",
+    "Option 1": "To slow signals",
+    "Option 2": "To protect sensitive data",
+    "Option 3": "To reduce gravity",
+    "Option 4": "To save fuel",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why are satellites repositioned during their lifetime?",
+    "Option 1": "To repaint them",
+    "Option 2": "To replace failed coverage",
+    "Option 3": "To increase gravity",
+    "Option 4": "To improve colour",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why does ISRO encourage academic collaboration?",
+    "Option 1": "To reduce staff",
+    "Option 2": "To combine research knowledge",
+    "Option 3": "To slow progress",
+    "Option 4": "To avoid testing",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why are satellite failures analysed deeply?",
+    "Option 1": "To assign blame",
+    "Option 2": "To stop missions",
+    "Option 3": "To learn and avoid future failures",
+    "Option 4": "To reduce funding",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why is precise time synchronisation important in satellite systems?",
+    "Option 1": "To reduce heat",
+    "Option 2": "To increase gravity",
+    "Option 3": "Timing errors affect data accuracy",
+    "Option 4": "To save fuel",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why does ISRO design missions with backup systems?",
+    "Option 1": "To increase size",
+    "Option 2": "To reduce speed",
+    "Option 3": "To handle unexpected failures",
+    "Option 4": "To improve colour",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why are Indian space missions focused on societal benefit?",
+    "Option 1": "Space is cheap",
+    "Option 2": "Data helps agriculture and disasters",
+    "Option 3": "To avoid deep space",
+    "Option 4": "To reduce satellites",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why are safety margins kept high in Indian missions?",
+    "Option 1": "To reduce speed",
+    "Option 2": "To handle unknown situations",
+    "Option 3": "To increase cost",
+    "Option 4": "To improve colour",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why is documentation important for space missions?",
+    "Option 1": "To increase paperwork",
+    "Option 2": "To help future missions and learning",
+    "Option 3": "To reduce gravity",
+    "Option 4": "To change orbit",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why does ISRO invest heavily in mission simulations before launch?",
+    "Option 1": "To reduce staff",
+    "Option 2": "To improve rocket colour",
+    "Option 3": "To predict problems and reduce failures",
+    "Option 4": "To shorten missions",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why are Indian satellites designed to work with limited power?",
+    "Option 1": "Space has unlimited energy",
+    "Option 2": "Power sources in space are limited",
+    "Option 3": "Power increases automatically",
+    "Option 4": "Power affects gravity",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why is launch vehicle recovery being studied in India?",
+    "Option 1": "To lower launch cost",
+    "Option 2": "To increase gravity",
+    "Option 3": "To avoid testing",
+    "Option 4": "To slow rockets",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "Why do satellites use onboard computers instead of relying fully on Earth?",
+    "Option 1": "Signals travel instantly",
+    "Option 2": "Earth computers are weak",
+    "Option 3": "Quick decisions are needed due to delay",
+    "Option 4": "Gravity blocks signals",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why is precision manufacturing critical for rocket engines?",
+    "Option 1": "Colour depends on precision",
+    "Option 2": "Precision reduces gravity",
+    "Option 3": "Small defects can cause mission failure",
+    "Option 4": "Precision slows rockets",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why does ISRO focus on lightweight materials?",
+    "Option 1": "To reduce launch mass and fuel",
+    "Option 2": "To improve colour",
+    "Option 3": "To increase gravity",
+    "Option 4": "To reduce testing",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "Why are Indian satellites tested for vibration and sound?",
+    "Option 1": "Space is noisy",
+    "Option 2": "Launch conditions are very harsh",
+    "Option 3": "To increase signal speed",
+    "Option 4": "To reduce gravity",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why is telemetry important during rocket launch?",
+    "Option 1": "To guide satellites later",
+    "Option 2": "To receive real-time health data",
+    "Option 3": "To control gravity",
+    "Option 4": "To increase speed",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why are satellite missions reviewed by expert committees?",
+    "Option 1": "To delay missions",
+    "Option 2": "To reduce innovation",
+    "Option 3": "To ensure safety and correctness",
+    "Option 4": "To change orbit",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why does India invest in space research despite high cost?",
+    "Option 1": "For competition only",
+    "Option 2": "To avoid innovation",
+    "Option 3": "Long-term national benefits",
+    "Option 4": "To reduce satellites",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why are launch schedules planned months in advance?",
+    "Option 1": "Rockets need rest",
+    "Option 2": "Coordination of many systems is required",
+    "Option 3": "Gravity affects schedule",
+    "Option 4": "Weather never changes",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why are satellite commands verified before execution?",
+    "Option 1": "To save fuel",
+    "Option 2": "Wrong commands can damage satellites",
+    "Option 3": "To slow systems",
+    "Option 4": "To increase gravity",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why does ISRO maintain strict quality control?",
+    "Option 1": "To increase paperwork",
+    "Option 2": "Small mistakes can destroy missions",
+    "Option 3": "To change colour",
+    "Option 4": "To reduce staff",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why are Indian space missions cost-reviewed regularly?",
+    "Option 1": "To stop missions",
+    "Option 2": "To control spending efficiently",
+    "Option 3": "To reduce gravity",
+    "Option 4": "To avoid innovation",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why are satellite components tested individually?",
+    "Option 1": "To increase gravity",
+    "Option 2": "To save time",
+    "Option 3": "To detect failures early",
+    "Option 4": "To reduce power",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why is data security important in Indian satellite systems?",
+    "Option 1": "To improve colour",
+    "Option 2": "To reduce gravity",
+    "Option 3": "To protect sensitive information",
+    "Option 4": "To slow signals",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why does ISRO invest in launch infrastructure upgrades?",
+    "Option 1": "To support future complex missions",
+    "Option 2": "To look modern",
+    "Option 3": "To reduce gravity",
+    "Option 4": "To shorten launches",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "Why are satellite launches delayed even after readiness?",
+    "Option 1": "To waste fuel",
+    "Option 2": "To change orbit",
+    "Option 3": "Safety conditions may not be met",
+    "Option 4": "To reduce gravity",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why are space missions documented in detail?",
+    "Option 1": "To increase paperwork",
+    "Option 2": "To help future missions and learning",
+    "Option 3": "To avoid testing",
+    "Option 4": "To change orbit",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why is continuous monitoring needed after satellite launch?",
+    "Option 1": "To repaint satellites",
+    "Option 2": "To reduce speed",
+    "Option 3": "To detect problems early",
+    "Option 4": "To increase gravity",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why does ISRO carefully choose launch dates for missions?",
+    "Option 1": "Fuel becomes cheaper",
+    "Option 2": "Earth and mission conditions must align",
+    "Option 3": "Rockets need rest",
+    "Option 4": "Weather changes gravity",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why are Indian rockets designed to handle high vibration?",
+    "Option 1": "Space is noisy",
+    "Option 2": "To survive launch stress",
+    "Option 3": "To increase speed",
+    "Option 4": "Launch shaking can damage systems",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "Why is indigenous chip development important for space missions?",
+    "Option 1": "To improve colour",
+    "Option 2": "To reduce gravity",
+    "Option 3": "To avoid foreign dependence",
+    "Option 4": "To increase speed",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "Why does ISRO test satellites in thermal chambers?",
+    "Option 1": "To improve appearance",
+    "Option 2": "To save fuel",
+    "Option 3": "To simulate space heat and cold",
+    "Option 4": "To increase gravity",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why are satellites built with multiple power paths?",
+    "Option 1": "To increase mass",
+    "Option 2": "To reduce testing",
+    "Option 3": "To continue power if one path fails",
+    "Option 4": "To save colour",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why does India focus on small satellite technology?",
+    "Option 1": "To reduce launch cost and increase access",
+    "Option 2": "To avoid big missions",
+    "Option 3": "To reduce gravity",
+    "Option 4": "To improve colour",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "Why are launch countdowns sometimes stopped at last minute?",
+    "Option 1": "To waste fuel",
+    "Option 2": "To delay missions",
+    "Option 3": "Gravity changes suddenly",
+    "Option 4": "Safety parameters may not be met",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "Why do Indian space missions use independent review panels?",
+    "Option 1": "To increase cost",
+    "Option 2": "To check design safety and logic",
+    "Option 3": "To slow progress",
+    "Option 4": "To avoid innovation",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why are satellites tested repeatedly after assembly?",
+    "Option 1": "To ensure reliability",
+    "Option 2": "To increase gravity",
+    "Option 3": "To reduce speed",
+    "Option 4": "To improve colour",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "Why is satellite fuel not used continuously?",
+    "Option 1": "Continuous thrust improves orbit",
+    "Option 2": "Fuel overheats",
+    "Option 3": "Fuel is reserved for corrections only",
+    "Option 4": "Gravity prevents thrust",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "Why does ISRO focus on failure analysis?",
+    "Option 1": "To assign blame",
+    "Option 2": "To stop missions",
+    "Option 3": "To avoid repeating mistakes",
+    "Option 4": "To reduce funding",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why are satellite commands sent with confirmation steps?",
+    "Option 1": "To slow operations",
+    "Option 2": "To prevent accidental damage",
+    "Option 3": "To reduce gravity",
+    "Option 4": "To save colour",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why does India invest in space-based navigation for defence?",
+    "Option 1": "To reduce cost",
+    "Option 2": "To avoid innovation",
+    "Option 3": "To improve colour",
+    "Option 4": "To ensure strategic independence",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "Why is mission documentation important in space projects?",
+    "Option 1": "To support future missions and learning",
+    "Option 2": "To increase paperwork",
+    "Option 3": "To reduce gravity",
+    "Option 4": "To slow launches",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "Why are satellite sensors calibrated often?",
+    "Option 1": "To save fuel",
+    "Option 2": "To maintain data accuracy",
+    "Option 3": "To increase gravity",
+    "Option 4": "To reduce heat",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why does ISRO design rockets with safety margins?",
+    "Option 1": "To reduce speed",
+    "Option 2": "To increase cost",
+    "Option 3": "To handle unexpected conditions",
+    "Option 4": "To improve colour",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why are multiple ground stations used in Indian missions?",
+    "Option 1": "To maintain contact worldwide",
+    "Option 2": "To reduce gravity",
+    "Option 3": "To increase speed",
+    "Option 4": "To improve colour",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "Why are some space missions delayed for years?",
+    "Option 1": "To increase cost",
+    "Option 2": "To reduce satellites",
+    "Option 3": "To increase gravity",
+    "Option 4": "Technology readiness takes time",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "Why does ISRO promote industry participation in space sector?",
+    "Option 1": "To increase competition",
+    "Option 2": "To save colour",
+    "Option 3": "To build a strong space ecosystem",
+    "Option 4": "To reduce missions",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why is long-term planning critical for science missions?",
+    "Option 1": "Missions are simple",
+    "Option 2": "Gravity changes daily",
+    "Option 3": "Technology and goals need continuity",
+    "Option 4": "To reduce cost only",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why is a resistor used in an LED circuit?",
+    "Option 1": "To increase brightness",
+    "Option 2": "To store charge",
+    "Option 3": "To limit current flow",
+    "Option 4": "To change voltage type",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "What is the main function of a battery in a circuit?",
+    "Option 1": "To supply electrical energy",
+    "Option 2": "To block current",
+    "Option 3": "To reduce resistance",
+    "Option 4": "To control brightness",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "What happens if an LED is connected directly to a battery without a resistor?",
+    "Option 1": "LED glows normally",
+    "Option 2": "LED glows dim",
+    "Option 3": "LED may get damaged",
+    "Option 4": "LED stores charge",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "Why is a switch used in an electric circuit?",
+    "Option 1": "To store energy",
+    "Option 2": "To open or close the circuit",
+    "Option 3": "To increase voltage",
+    "Option 4": "To reduce current",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "What is meant by a closed circuit?",
+    "Option 1": "Circuit with no battery",
+    "Option 2": "Circuit with a broken wire",
+    "Option 3": "Circuit where current can flow",
+    "Option 4": "Circuit with high resistance",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why are connecting wires made of copper?",
+    "Option 1": "Copper looks shiny",
+    "Option 2": "Copper has high resistance",
+    "Option 3": "Copper stores charge",
+    "Option 4": "Copper allows easy flow of current",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "What is the role of a fuse in a circuit?",
+    "Option 1": "To increase current",
+    "Option 2": "To protect the circuit from overload",
+    "Option 3": "To store electricity",
+    "Option 4": "To increase voltage",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "Why is electrical insulation important in wires?",
+    "Option 1": "To increase current",
+    "Option 2": "To change voltage",
+    "Option 3": "To prevent electric shock",
+    "Option 4": "To store charge",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "What does a bulb convert electrical energy into mainly?",
+    "Option 1": "Sound energy",
+    "Option 2": "Heat energy only",
+    "Option 3": "Light energy only",
+    "Option 4": "Light and heat energy",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "Why should wet hands not touch electrical switches?",
+    "Option 1": "Switch may break",
+    "Option 2": "Current becomes weaker",
+    "Option 3": "Risk of electric shock increases",
+    "Option 4": "Voltage reduces",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "What is the purpose of a simple electric symbol diagram?",
+    "Option 1": "To decorate books",
+    "Option 2": "To show real size of components",
+    "Option 3": "To represent circuits clearly",
+    "Option 4": "To measure current",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "What happens when a switch is turned OFF?",
+    "Option 1": "Battery stops working",
+    "Option 2": "Circuit becomes open",
+    "Option 3": "Voltage increases",
+    "Option 4": "Resistance becomes zero",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why are batteries connected in series sometimes?",
+    "Option 1": "To reduce voltage",
+    "Option 2": "To increase total voltage",
+    "Option 3": "To decrease current",
+    "Option 4": "To store more charge",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "What is the main use of a multimeter?",
+    "Option 1": "To connect wires",
+    "Option 2": "To glow LED",
+    "Option 3": "To measure electrical quantities",
+    "Option 4": "To increase resistance",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "Why does a long wire have more resistance than a short wire?",
+    "Option 1": "It is heavier",
+    "Option 2": "It stores charge",
+    "Option 3": "Current travels longer path",
+    "Option 4": "Voltage increases",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "What safety rule should be followed with electrical appliances?",
+    "Option 1": "Touch with wet hands",
+    "Option 2": "Use damaged wires",
+    "Option 3": "Switch off when not in use",
+    "Option 4": "Increase voltage",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "What happens if too many devices are connected to one socket?",
+    "Option 1": "Devices work better",
+    "Option 2": "Voltage increases",
+    "Option 3": "Fuse may blow",
+    "Option 4": "Resistance decreases",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "Why are electric poles fitted with insulators?",
+    "Option 1": "To look attractive",
+    "Option 2": "To reduce voltage",
+    "Option 3": "To stop current leakage",
+    "Option 4": "To increase current",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "Why is earthing important in electrical systems?",
+    "Option 1": "To increase brightness",
+    "Option 2": "To prevent electric shock",
+    "Option 3": "To store electricity",
+    "Option 4": "To increase voltage",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "What is the main advantage of using symbols instead of pictures in circuits?",
+    "Option 1": "They look modern",
+    "Option 2": "They show exact colour",
+    "Option 3": "They make diagrams simple and clear",
+    "Option 4": "They increase accuracy of current",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why is a diode used in a circuit?",
+    "Option 1": "To store charge",
+    "Option 2": "To increase voltage",
+    "Option 3": "To allow current in one direction",
+    "Option 4": "To reduce resistance",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "What happens when a circuit has a break in the wire?",
+    "Option 1": "Current flows faster",
+    "Option 2": "Circuit becomes open",
+    "Option 3": "Voltage increases",
+    "Option 4": "Battery stops working",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why is a switch placed in series with a device?",
+    "Option 1": "To increase current",
+    "Option 2": "To store energy",
+    "Option 3": "To protect from heat",
+    "Option 4": "To control ON and OFF",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "What does an ammeter measure?",
+    "Option 1": "Voltage",
+    "Option 2": "Current",
+    "Option 3": "Resistance",
+    "Option 4": "Power",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why are household appliances connected in parallel?",
+    "Option 1": "To reduce voltage",
+    "Option 2": "To save wire",
+    "Option 3": "Each appliance gets full voltage",
+    "Option 4": "To reduce current",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "What is the function of insulation on electric wires?",
+    "Option 1": "To increase current",
+    "Option 2": "To store electricity",
+    "Option 3": "To increase resistance",
+    "Option 4": "To prevent electric shock",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "What happens if the resistance in a circuit increases?",
+    "Option 1": "Current increases",
+    "Option 2": "Current decreases",
+    "Option 3": "Voltage increases",
+    "Option 4": "Power doubles",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why is a dry cell called “dry”?",
+    "Option 1": "It has no chemicals",
+    "Option 2": "It has no liquid electrolyte",
+    "Option 3": "It gives dry air",
+    "Option 4": "It produces less current",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "What energy change happens in an electric fan?",
+    "Option 1": "Electrical to heat",
+    "Option 2": "Electrical to sound",
+    "Option 3": "Electrical to light",
+    "Option 4": "Electrical to mechanical",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "Why should electrical repairs be done with main supply OFF?",
+    "Option 1": "To save power",
+    "Option 2": "To reduce voltage",
+    "Option 3": "To avoid wasting energy",
+    "Option 4": "To prevent electric shock",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "What is the role of a capacitor in basic circuits?",
+    "Option 1": "To increase current",
+    "Option 2": "To store electrical charge",
+    "Option 3": "To reduce voltage",
+    "Option 4": "To stop current",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why are symbols used in circuit diagrams?",
+    "Option 1": "They look attractive",
+    "Option 2": "They show colour of parts",
+    "Option 3": "They make circuits easy to understand",
+    "Option 4": "They show real size",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "What happens if polarity of LED is reversed?",
+    "Option 1": "LED glows brighter",
+    "Option 2": "LED glows dim",
+    "Option 3": "LED stops working",
+    "Option 4": "LED stores charge",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why does a fuse wire melt during overload?",
+    "Option 1": "It has low melting point",
+    "Option 2": "It has high resistance",
+    "Option 3": "It stores charge",
+    "Option 4": "It increases voltage",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "Why is earthing wire thicker than live wire?",
+    "Option 1": "It carries current always",
+    "Option 2": "It looks strong",
+    "Option 3": "It safely carries excess current",
+    "Option 4": "It increases voltage",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "What happens if voltage across a bulb increases too much?",
+    "Option 1": "Bulb glows dim",
+    "Option 2": "Bulb efficiency increases",
+    "Option 3": "Bulb may fuse",
+    "Option 4": "Bulb stores energy",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why are electric circuits kept dry?",
+    "Option 1": "Water reduces resistance",
+    "Option 2": "Water increases brightness",
+    "Option 3": "Water blocks voltage",
+    "Option 4": "Water can cause short circuit",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "What is the function of a relay?",
+    "Option 1": "To store energy",
+    "Option 2": "To increase voltage",
+    "Option 3": "To control a circuit using another circuit",
+    "Option 4": "To reduce resistance",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why are batteries removed from unused devices?",
+    "Option 1": "To save weight",
+    "Option 2": "To prevent leakage damage",
+    "Option 3": "To increase life",
+    "Option 4": "To reduce voltage",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why does an LED need correct polarity to work?",
+    "Option 1": "It stores charge",
+    "Option 2": "It produces heat only",
+    "Option 3": "It allows current in one direction",
+    "Option 4": "It changes resistance",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why does a fuse not melt during normal operation?",
+    "Option 1": "Current stays within safe limit",
+    "Option 2": "Voltage is low",
+    "Option 3": "Fuse stores heat",
+    "Option 4": "Resistance is zero",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "Why is short circuit dangerous in a house?",
+    "Option 1": "Voltage becomes zero",
+    "Option 2": "Appliances stop working",
+    "Option 3": "Current becomes very high",
+    "Option 4": "Power supply increases",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "Why does a bulb glow brighter when voltage increases?",
+    "Option 1": "Resistance decreases",
+    "Option 2": "More current flows through filament",
+    "Option 3": "Filament becomes thicker",
+    "Option 4": "Circuit becomes parallel",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why are electrical appliances rated for voltage and current?",
+    "Option 1": "For decoration",
+    "Option 2": "To match power supply safely",
+    "Option 3": "To increase efficiency",
+    "Option 4": "To reduce resistance",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "Why does an open switch stop current flow completely?",
+    "Option 1": "Battery stops working",
+    "Option 2": "Circuit path breaks",
+    "Option 3": "Voltage becomes zero",
+    "Option 4": "Resistance decreases",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why is series connection not used for home wiring?",
+    "Option 1": "Voltage is high",
+    "Option 2": "One device failure stops all",
+    "Option 3": "Power supply fails",
+    "Option 4": "Current increases",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why is a capacitor used in power supplies?",
+    "Option 1": "To increase current",
+    "Option 2": "To change polarity",
+    "Option 3": "To store and smooth voltage",
+    "Option 4": "To stop AC",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "Why does resistance of a wire increase with length?",
+    "Option 1": "Voltage increases",
+    "Option 2": "Current decreases",
+    "Option 3": "Path for electrons becomes longer",
+    "Option 4": "Wire heats less",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "Why does an electric iron have a thick wire?",
+    "Option 1": "To increase resistance",
+    "Option 2": "To reduce heat",
+    "Option 3": "To carry high current safely",
+    "Option 4": "To save power",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "Why is insulation damaged wire dangerous?",
+    "Option 1": "Current flows faster",
+    "Option 2": "It may cause electric shock",
+    "Option 3": "Voltage becomes zero",
+    "Option 4": "Resistance increases",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why does an ammeter have very low resistance?",
+    "Option 1": "To store current",
+    "Option 2": "To reduce voltage",
+    "Option 3": "To avoid affecting current flow",
+    "Option 4": "To increase accuracy",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why does earthing not carry current normally?",
+    "Option 1": "It has high voltage",
+    "Option 2": "It is disconnected",
+    "Option 3": "It works only during faults",
+    "Option 4": "It increases resistance",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "Why does a battery heat up during short circuit?",
+    "Option 1": "Chemical reaction slows",
+    "Option 2": "Current becomes very high",
+    "Option 3": "Voltage drops suddenly",
+    "Option 4": "Battery stores energy",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "Why does a bulb filament glow but not melt?",
+    "Option 1": "Resistance is zero",
+    "Option 2": "Current is low",
+    "Option 3": "It has very high melting point",
+    "Option 4": "Voltage is alternating",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why are resistors used in electronic circuits instead of wires?",
+    "Option 1": "To increase voltage",
+    "Option 2": "To control current",
+    "Option 3": "To store energy",
+    "Option 4": "To change polarity",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why does touching a live wire cause shock but neutral wire usually does not?",
+    "Option 1": "Neutral has no electrons",
+    "Option 2": "Live wire has potential difference",
+    "Option 3": "Neutral has high resistance",
+    "Option 4": "Shock depends on colour",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "Why does a fuse wire have lower melting point than copper wire?",
+    "Option 1": "It stores heat",
+    "Option 2": "It has high resistance",
+    "Option 3": "It melts quickly to break circuit",
+    "Option 4": "It reduces voltage",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "Why are batteries removed from devices kept unused for long time?",
+    "Option 1": "To save weight",
+    "Option 2": "To prevent leakage damage",
+    "Option 3": "To increase voltage",
+    "Option 4": "To reduce resistance",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why is proper rating of fuse important?",
+    "Option 1": "Any fuse works",
+    "Option 2": "High rating protects better",
+    "Option 3": "Wrong rating can damage circuit",
+    "Option 4": "Fuse increases power",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "An LED glows in one circuit but not in another identical one. What is the most likely reason?",
+    "Option 1": "Battery is weak",
+    "Option 2": "Wire is broken",
+    "Option 3": "LED polarity is reversed",
+    "Option 4": "Switch is faulty",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "A fuse is replaced with a thick copper wire. What danger does this cause?",
+    "Option 1": "Device stops working",
+    "Option 2": "Circuit loses protection",
+    "Option 3": "Voltage drops",
+    "Option 4": "Current becomes zero",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "A bulb rated for low voltage is connected to high voltage. What happens first?",
+    "Option 1": "Bulb glows dim",
+    "Option 2": "Bulb stores energy",
+    "Option 3": "Bulb works normally",
+    "Option 4": "Filament may break",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "Two bulbs glow dimmer when connected together than alone. What is the connection type?",
+    "Option 1": "Parallel",
+    "Option 2": "Series",
+    "Option 3": "Mixed",
+    "Option 4": "Open circuit",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "A wire feels warm when current flows. What does this show?",
+    "Option 1": "Energy is destroyed",
+    "Option 2": "Electrical energy converts to heat",
+    "Option 3": "Voltage disappears",
+    "Option 4": "Resistance becomes zero",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "A switch is OFF but bulb still glows faintly. What is the possible reason?",
+    "Option 1": "Battery is dead",
+    "Option 2": "Bulb is damaged",
+    "Option 3": "Leakage current in circuit",
+    "Option 4": "Voltage is high",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why is neutral wire near zero potential in homes?",
+    "Option 1": "It has no electrons",
+    "Option 2": "It is earthed",
+    "Option 3": "It has high resistance",
+    "Option 4": "It carries no current",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "A fuse melts even though only one device is connected. What is the reason?",
+    "Option 1": "Fuse rating is too high",
+    "Option 2": "Voltage is low",
+    "Option 3": "Device is new",
+    "Option 4": "Fuse rating is too low",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "Why does an LED not glow in AC supply without extra components?",
+    "Option 1": "AC has no current",
+    "Option 2": "AC changes direction rapidly",
+    "Option 3": "AC has high voltage",
+    "Option 4": "AC damages LED instantly",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "A multimeter shows zero current though circuit looks complete. What is the hidden issue?",
+    "Option 1": "Meter is faulty",
+    "Option 2": "Battery is new",
+    "Option 3": "Internal fuse of meter is blown",
+    "Option 4": "Resistance is low",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why are electric heaters connected in parallel, not series?",
+    "Option 1": "To reduce current",
+    "Option 2": "To save wire",
+    "Option 3": "To increase resistance",
+    "Option 4": "Each heater gets full voltage",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "Touching a live wire while wearing rubber shoes is safer because:",
+    "Option 1": "Rubber blocks current path",
+    "Option 2": "Voltage becomes zero",
+    "Option 3": "Current increases",
+    "Option 4": "Earth wire activates",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why does a long extension cord heat more than a short one?",
+    "Option 1": "Voltage increases",
+    "Option 2": "Current decreases",
+    "Option 3": "Resistance is lower",
+    "Option 4": "Resistance is higher",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "Why is earthing not used to run appliances?",
+    "Option 1": "It has high voltage",
+    "Option 2": "It is costly",
+    "Option 3": "It carries current only during fault",
+    "Option 4": "It increases resistance",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "A bulb glows brighter when another bulb is removed. What does this show?",
+    "Option 1": "Circuit was series",
+    "Option 2": "Circuit was parallel",
+    "Option 3": "Voltage increased",
+    "Option 4": "Resistance decreased",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why is a capacitor dangerous even after power is switched OFF?",
+    "Option 1": "It generates voltage",
+    "Option 2": "It stores current",
+    "Option 3": "It can retain charge",
+    "Option 4": "It increases resistance",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why does touching both live and neutral wire give shock?",
+    "Option 1": "Neutral is charged",
+    "Option 2": "Body completes the circuit",
+    "Option 3": "Voltage increases",
+    "Option 4": "Current decreases",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "Why is a fuse placed in the live wire and not neutral?",
+    "Option 1": "Neutral has no current",
+    "Option 2": "Live wire is easier to cut",
+    "Option 3": "To disconnect supply during fault",
+    "Option 4": "Neutral melts faster",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "A battery drains quickly in a device even when OFF. What is the reason?",
+    "Option 1": "High voltage",
+    "Option 2": "Internal leakage path",
+    "Option 3": "Good efficiency",
+    "Option 4": "Low resistance wire",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "Why are electronic circuits damaged by wrong polarity?",
+    "Option 1": "Voltage increases",
+    "Option 2": "Current becomes zero",
+    "Option 3": "Components are directional",
+    "Option 4": "Resistance changes",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "An LED works with a battery but not with a DC adapter of same voltage. What is the hidden issue?",
+    "Option 1": "Adapter polarity is reversed",
+    "Option 2": "Adapter gives no current",
+    "Option 3": "Adapter output is AC-like ripple",
+    "Option 4": "LED is damaged",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "A fuse never melts even during overload. What is the most likely reason?",
+    "Option 1": "Fuse rating is too high",
+    "Option 2": "Fuse wire is broken",
+    "Option 3": "Voltage is low",
+    "Option 4": "Current is alternating",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "A bulb glows normally but wires become hot. What does this indicate?",
+    "Option 1": "Bulb resistance is low",
+    "Option 2": "Current is high due to poor wiring",
+    "Option 3": "Voltage is low",
+    "Option 4": "Fuse is damaged",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "Two devices are connected in parallel. One stops working. What happens to the other?",
+    "Option 1": "It also stops",
+    "Option 2": "It gets less voltage",
+    "Option 3": "It works normally",
+    "Option 4": "It draws zero current",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why does an LED glow dimmer when battery is almost discharged?",
+    "Option 1": "LED resistance increases",
+    "Option 2": "Battery internal resistance increases",
+    "Option 3": "LED polarity changes",
+    "Option 4": "Voltage becomes AC",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "A multimeter shows voltage but device does not work. What is the likely fault?",
+    "Option 1": "Meter is wrong",
+    "Option 2": "Wire insulation is thick",
+    "Option 3": "Current path is broken",
+    "Option 4": "Voltage is too high",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "Why does touching only live wire sometimes not give shock?",
+    "Option 1": "Body resistance is high",
+    "Option 2": "Neutral is disconnected",
+    "Option 3": "Circuit is incomplete",
+    "Option 4": "Voltage is low",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "An appliance works at home but not with inverter supply. Why?",
+    "Option 1": "Inverter gives DC",
+    "Option 2": "Frequency mismatch affects device",
+    "Option 3": "Voltage is higher",
+    "Option 4": "Current is lower",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "A battery heats up even when device is OFF. What is the reason?",
+    "Option 1": "Battery is old",
+    "Option 2": "Switch is faulty",
+    "Option 3": "External short circuit",
+    "Option 4": "Internal leakage inside device",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "Why is a resistor placed before an LED even if LED glows without it?",
+    "Option 1": "To save battery",
+    "Option 2": "To increase brightness",
+    "Option 3": "To protect LED from excess current",
+    "Option 4": "To reduce voltage permanently",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "A fuse melts immediately when switch is ON. What does this suggest?",
+    "Option 1": "Fuse rating too high",
+    "Option 2": "Circuit has short connection",
+    "Option 3": "Voltage is low",
+    "Option 4": "Load is small",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why does current reduce when a wire becomes hot?",
+    "Option 1": "Voltage decreases",
+    "Option 2": "Electrons stop moving",
+    "Option 3": "Resistance increases with heat",
+    "Option 4": "Circuit becomes parallel",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why are power tools given thick power cables?",
+    "Option 1": "To look strong",
+    "Option 2": "To reduce resistance heating",
+    "Option 3": "To increase voltage",
+    "Option 4": "To reduce current",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "A capacitor shocks even after supply is removed. Why?",
+    "Option 1": "It generates voltage",
+    "Option 2": "It stores current",
+    "Option 3": "It converts AC to DC",
+    "Option 4": "It retains charge",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "Why does reversing battery connection damage some devices?",
+    "Option 1": "Voltage doubles",
+    "Option 2": "Current becomes zero",
+    "Option 3": "Components are polarity-sensitive",
+    "Option 4": "Resistance increases",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why is fuse not used in earthing wire?",
+    "Option 1": "Earthing has no current normally",
+    "Option 2": "Earthing is expensive",
+    "Option 3": "Fuse melts too fast",
+    "Option 4": "Earthing has high voltage",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "A bulb glows dim when many devices are ON. What is the reason?",
+    "Option 1": "Voltage drop in wiring",
+    "Option 2": "Resistance of bulb increased",
+    "Option 3": "Current is constant",
+    "Option 4": "Fuse is weak",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "Why does shock severity increase with wet skin?",
+    "Option 1": "Voltage increases",
+    "Option 2": "Body resistance decreases",
+    "Option 3": "Current becomes AC",
+    "Option 4": "Power supply changes",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "Why do electronic devices fail during lightning even when switched OFF?",
+    "Option 1": "Voltage becomes zero",
+    "Option 2": "Surge enters through wiring",
+    "Option 3": "Current is blocked",
+    "Option 4": "Fuse melts late",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why are electronic components damaged by overheating?",
+    "Option 1": "Heat increases voltage",
+    "Option 2": "Heat increases current",
+    "Option 3": "Heat changes material properties",
+    "Option 4": "Heat stores charge",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "An LED glows even when the switch is OFF. What is the most likely cause?",
+    "Option 1": "Battery is new",
+    "Option 2": "Leakage current in circuit",
+    "Option 3": "LED is faulty",
+    "Option 4": "Voltage is high",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "A fuse blows every time a device is turned ON. What does this indicate?",
+    "Option 1": "Fuse rating too low",
+    "Option 2": "Device is efficient",
+    "Option 3": "Voltage is correct",
+    "Option 4": "Current is stable",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "A bulb works, but its holder heats up. What is the hidden issue?",
+    "Option 1": "Bulb resistance is low",
+    "Option 2": "Loose connection at holder",
+    "Option 3": "Voltage is high",
+    "Option 4": "Bulb power is high",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Two identical bulbs glow with different brightness in same circuit. Why?",
+    "Option 1": "Bulbs are different",
+    "Option 2": "Wiring resistance is unequal",
+    "Option 3": "Voltage is zero",
+    "Option 4": "Circuit is open",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why does a mobile charger feel warm even when not charging?",
+    "Option 1": "Charger is broken",
+    "Option 2": "Energy is lost as heat",
+    "Option 3": "Voltage is high",
+    "Option 4": "Battery is charging",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "An LED connected backward does not glow but is not damaged. Why?",
+    "Option 1": "Voltage is low",
+    "Option 2": "Current is blocked",
+    "Option 3": "LED stores charge",
+    "Option 4": "Circuit is open",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why does an electric shock feel stronger when standing barefoot on floor?",
+    "Option 1": "Voltage increases",
+    "Option 2": "Body resistance reduces",
+    "Option 3": "Current becomes DC",
+    "Option 4": "Fuse melts",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "A device works with a battery but fails with adapter. What is a likely reason?",
+    "Option 1": "Battery has more voltage",
+    "Option 2": "Adapter cannot supply required current",
+    "Option 3": "Adapter is AC",
+    "Option 4": "Battery gives DC",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why is a fuse never placed in the neutral wire?",
+    "Option 1": "Neutral has no current",
+    "Option 2": "Live wire must disconnect during fault",
+    "Option 3": "Neutral melts faster",
+    "Option 4": "Voltage is zero",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why does an inverter beep when many devices are ON?",
+    "Option 1": "Voltage increases",
+    "Option 2": "Load exceeds capacity",
+    "Option 3": "Frequency changes",
+    "Option 4": "Battery is full",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "A capacitor explodes in a circuit. What was most likely ignored?",
+    "Option 1": "Colour code",
+    "Option 2": "Voltage rating",
+    "Option 3": "Resistance value",
+    "Option 4": "Wire length",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why does touching metal case of faulty appliance give shock?",
+    "Option 1": "Case is live",
+    "Option 2": "Earthing is missing",
+    "Option 3": "Voltage is high",
+    "Option 4": "Fuse rating is wrong",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why does current reduce when resistance increases?",
+    "Option 1": "Voltage disappears",
+    "Option 2": "Energy is destroyed",
+    "Option 3": "Opposition to flow increases",
+    "Option 4": "Power becomes zero",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "A bulb rated 220V glows dim at 110V. Why?",
+    "Option 1": "Resistance increases",
+    "Option 2": "Less current flows",
+    "Option 3": "Voltage becomes AC",
+    "Option 4": "Filament thickens",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why does an LED flicker on weak battery?",
+    "Option 1": "LED is damaged",
+    "Option 2": "Battery voltage fluctuates",
+    "Option 3": "Current increases",
+    "Option 4": "Polarity reverses",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why are electronic devices damaged by reverse polarity?",
+    "Option 1": "Voltage doubles",
+    "Option 2": "Direction-sensitive parts fail",
+    "Option 3": "Resistance drops",
+    "Option 4": "Fuse melts",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why does shock not occur when touching bird on power line?",
+    "Option 1": "Bird is insulated",
+    "Option 2": "No potential difference across body",
+    "Option 3": "Current is zero",
+    "Option 4": "Voltage is low",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "A wire melts without blowing fuse. Why?",
+    "Option 1": "Fuse rating too high",
+    "Option 2": "Wire is thin",
+    "Option 3": "Voltage is high",
+    "Option 4": "Current is low",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "Why does a fan slow down when voltage drops slightly?",
+    "Option 1": "Resistance increases",
+    "Option 2": "Torque reduces",
+    "Option 3": "Current becomes AC",
+    "Option 4": "Speed is fixed",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why are power supplies labelled with current rating?",
+    "Option 1": "For decoration",
+    "Option 2": "To avoid overload damage",
+    "Option 3": "To reduce voltage",
+    "Option 4": "To increase efficiency",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "An LED glows very faintly even after the switch is OFF. What is the most likely reason?",
+    "Option 1": "Small leakage current in circuit",
+    "Option 2": "Battery is fully charged",
+    "Option 3": "LED resistance increased",
+    "Option 4": "Voltage doubled",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "A device works normally at first but stops after getting hot. What is the most common cause?",
+    "Option 1": "Battery discharged",
+    "Option 2": "Loose connection expands due to heat",
+    "Option 3": "Fuse rating is low",
+    "Option 4": "Voltage suddenly increases",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Wires heat up but fuse does not melt. What is the main problem?",
+    "Option 1": "Fuse placed in neutral wire",
+    "Option 2": "Fuse rating is too high",
+    "Option 3": "Circuit is parallel",
+    "Option 4": "Voltage is low",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "An appliance gives electric shock only sometimes. What is the likely fault?",
+    "Option 1": "Broken switch",
+    "Option 2": "High voltage supply",
+    "Option 3": "Thin wire used",
+    "Option 4": "Improper earthing",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "A bulb far from the power source glows dimmer than a nearby bulb. Why?",
+    "Option 1": "Bulb is old",
+    "Option 2": "Voltage drop in long wires",
+    "Option 3": "Current increases",
+    "Option 4": "Resistance becomes zero",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "A multimeter shows correct voltage, but the device does not start. What is the reason?",
+    "Option 1": "Meter is faulty",
+    "Option 2": "Supply cannot provide enough current",
+    "Option 3": "Voltage is AC",
+    "Option 4": "Polarity reversed",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Fuse blows immediately when power is switched ON. What does this indicate?",
+    "Option 1": "Fuse is weak",
+    "Option 2": "Appliance is efficient",
+    "Option 3": "Overloading",
+    "Option 4": "Short circuit in device",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "A charger shows output voltage, but phone does not charge. What is the likely issue?",
+    "Option 1": "Voltage is low",
+    "Option 2": "Cable is too long",
+    "Option 3": "Output current is insufficient",
+    "Option 4": "Battery is new",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "When one bulb is removed, the other bulb becomes brighter. What was the earlier connection?",
+    "Option 1": "Series connection",
+    "Option 2": "Parallel connection",
+    "Option 3": "Open circuit",
+    "Option 4": "Short circuit",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "A wire melts but the fuse remains safe. Why is this dangerous?",
+    "Option 1": "Fuse works fast",
+    "Option 2": "Wire rating is lower than fuse",
+    "Option 3": "Voltage is low",
+    "Option 4": "Current is small",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "A capacitor gives shock even long after power is removed. Why?",
+    "Option 1": "It generates electricity",
+    "Option 2": "It stores current",
+    "Option 3": "It has low resistance",
+    "Option 4": "It retains electric charge",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "An LED flickers when touched by hand. What is the reason?",
+    "Option 1": "LED is damaged",
+    "Option 2": "Static charge affects circuit",
+    "Option 3": "Voltage increases",
+    "Option 4": "Current becomes DC",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "An electronic device fails mostly during rainy days. Why?",
+    "Option 1": "Voltage increases",
+    "Option 2": "Moisture reduces insulation",
+    "Option 3": "Fuse melts early",
+    "Option 4": "Resistance becomes zero",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why does a bird sitting on a live wire not get shocked?",
+    "Option 1": "Bird is insulated",
+    "Option 2": "Current does not flow",
+    "Option 3": "No potential difference across body",
+    "Option 4": "Voltage is low",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Electronic devices fail faster at high temperature. Why?",
+    "Option 1": "Voltage increases",
+    "Option 2": "Resistance drops",
+    "Option 3": "Material properties change",
+    "Option 4": "Current becomes AC",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why is a fuse always connected in the live wire?",
+    "Option 1": "Neutral has voltage",
+    "Option 2": "Fuse melts faster there",
+    "Option 3": "To cut off supply during fault",
+    "Option 4": "To increase safety rating",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "A battery drains even when the switch is OFF. What is the cause?",
+    "Option 1": "Battery defect",
+    "Option 2": "Internal leakage path",
+    "Option 3": "High voltage",
+    "Option 4": "Low resistance wire",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Shock becomes more dangerous when hands are wet. Why?",
+    "Option 1": "Voltage increases",
+    "Option 2": "Body resistance decreases",
+    "Option 3": "Current becomes AC",
+    "Option 4": "Fuse stops working",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "A device works on DC supply but fails on AC. What is the reason?",
+    "Option 1": "AC has no current",
+    "Option 2": "AC voltage is lower",
+    "Option 3": "Device needs fixed polarity",
+    "Option 4": "AC damages wires",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Electronic components get damaged when connected wrongly. Why?",
+    "Option 1": "Voltage doubles",
+    "Option 2": "Current stops",
+    "Option 3": "Resistance drops",
+    "Option 4": "Components are polarity-sensitive",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "A bulb glows dim when connected to a long extension wire. What is the main reason?",
+    "Option 1": "Battery is weak",
+    "Option 2": "Voltage drops in long wire",
+    "Option 3": "Bulb resistance decreases",
+    "Option 4": "Current becomes zero",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "An LED suddenly stops working though circuit looks correct. What is the most likely cause?",
+    "Option 1": "LED overheated earlier",
+    "Option 2": "Wire colour is wrong",
+    "Option 3": "Battery is new",
+    "Option 4": "Switch is OFF",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "Why does a fuse protect appliances but not save a person from shock?",
+    "Option 1": "Fuse reacts slowly",
+    "Option 2": "Fuse works only for high current",
+    "Option 3": "Fuse blocks voltage",
+    "Option 4": "Fuse is in neutral",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "A device works normally, but gives shock when touched. What is the fault?",
+    "Option 1": "Low voltage",
+    "Option 2": "High resistance",
+    "Option 3": "Missing earthing",
+    "Option 4": "Weak battery",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "A fan slows down when many devices are used together. Why?",
+    "Option 1": "Fan resistance increases",
+    "Option 2": "Voltage drop in supply",
+    "Option 3": "Motor is damaged",
+    "Option 4": "Current becomes AC",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why are circuit connections tightened properly?",
+    "Option 1": "To reduce cost",
+    "Option 2": "To avoid sparks and heating",
+    "Option 3": "To increase voltage",
+    "Option 4": "To improve appearance",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "A fuse keeps blowing even at low load. What is the reason?",
+    "Option 1": "Fuse rating is too low",
+    "Option 2": "Voltage is high",
+    "Option 3": "Circuit is parallel",
+    "Option 4": "Battery is strong",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "Why is a tester screwdriver unsafe for measuring voltage level?",
+    "Option 1": "It is slow",
+    "Option 2": "It shows only presence, not value",
+    "Option 3": "It increases current",
+    "Option 4": "It stores charge",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "A battery connected backward damages a circuit. Why?",
+    "Option 1": "Voltage doubles",
+    "Option 2": "Current stops",
+    "Option 3": "Polarity-sensitive parts fail",
+    "Option 4": "Resistance increases",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why should appliances be switched OFF before unplugging?",
+    "Option 1": "To save electricity",
+    "Option 2": "To reduce noise",
+    "Option 3": "To prevent spark and damage",
+    "Option 4": "To increase life of wire",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "What is the basic working idea of a 3D printer?",
+    "Option 1": "Cutting shapes",
+    "Option 2": "Molding material",
+    "Option 3": "Building objects layer by layer",
+    "Option 4": "Pressing material into shape",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why is a digital 3D model needed before printing?",
+    "Option 1": "It tells the printer what to make",
+    "Option 2": "It cools the printer",
+    "Option 3": "It adds colour",
+    "Option 4": "It saves electricity",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "A print breaks easily even though it looks solid. What is the main reason?",
+    "Option 1": "Printing speed is low",
+    "Option 2": "Layer height is small",
+    "Option 3": "Filament is new",
+    "Option 4": "Infill is too low",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "Why is bed leveling important in 3D printing?",
+    "Option 1": "To increase speed",
+    "Option 2": "To help the first layer stick properly",
+    "Option 3": "To reduce noise",
+    "Option 4": "To save filament",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why does a print fail after a few layers even though the first layer was fine?",
+    "Option 1": "Filament diameter is uneven",
+    "Option 2": "Model colour is dark",
+    "Option 3": "Printer is slow",
+    "Option 4": "Bed temperature is too high",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "What is the main role of slicing software?",
+    "Option 1": "Designing the object",
+    "Option 2": "Coloring the model",
+    "Option 3": "Converting model into printer instructions",
+    "Option 4": "Cooling the printer",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why does very high printing speed reduce print quality?",
+    "Option 1": "Printer overheats",
+    "Option 2": "Layers do not bond properly",
+    "Option 3": "Infill increases",
+    "Option 4": "Nozzle becomes larger",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "When are support structures required during printing?",
+    "Option 1": "For flat objects",
+    "Option 2": "For very small prints",
+    "Option 3": "For hollow objects",
+    "Option 4": "For overhanging parts",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "Why is PLA preferred in schools over other materials?",
+    "Option 1": "It is strongest plastic",
+    "Option 2": "It melts safely and is easy to use",
+    "Option 3": "It is waterproof",
+    "Option 4": "It conducts electricity",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "What mainly controls how smooth the surface of a print looks?",
+    "Option 1": "Bed size",
+    "Option 2": "Printing colour",
+    "Option 3": "Layer height",
+    "Option 4": "Infill percentage",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why should filament be stored in a dry place?",
+    "Option 1": "It changes colour",
+    "Option 2": "Moisture damages print quality",
+    "Option 3": "Printer speed increases",
+    "Option 4": "Bed cools faster",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "What limits the maximum size of a printed object?",
+    "Option 1": "File format",
+    "Option 2": "Internet speed",
+    "Option 3": "Printing time",
+    "Option 4": "Printer build volume",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "Why do curved surfaces look stepped in low-quality prints?",
+    "Option 1": "Printer is faulty",
+    "Option 2": "Filament is hard",
+    "Option 3": "Printing happens in flat layers",
+    "Option 4": "Speed is low",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why is test printing done before final printing?",
+    "Option 1": "To waste material",
+    "Option 2": "To check design and settings",
+    "Option 3": "To heat printer",
+    "Option 4": "To change colour",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "What happens if nozzle temperature is too high?",
+    "Option 1": "Filament blocks",
+    "Option 2": "Layers become stronger",
+    "Option 3": "Printer stops",
+    "Option 4": "Print becomes messy and weak",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "Why is ventilation recommended during 3D printing?",
+    "Option 1": "To reduce noise",
+    "Option 2": "To remove fumes safely",
+    "Option 3": "To cool filament",
+    "Option 4": "To save power",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why is 3D printing useful for making prototypes?",
+    "Option 1": "It replaces factories",
+    "Option 2": "Designs can be tested quickly",
+    "Option 3": "It uses no electricity",
+    "Option 4": "It works only for plastic",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "What is a common reason for warping in 3D prints?",
+    "Option 1": "High infill",
+    "Option 2": "Uneven cooling of material",
+    "Option 3": "Perfect leveling",
+    "Option 4": "Low speed",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why does 3D printing reduce material waste?",
+    "Option 1": "It uses extra plastic",
+    "Option 2": "It builds only required material",
+    "Option 3": "It cuts large blocks",
+    "Option 4": "It melts everything",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "Why is post-processing sometimes needed after printing?",
+    "Option 1": "To reprint object",
+    "Option 2": "To improve finish and fitting",
+    "Option 3": "To change material",
+    "Option 4": "To add layers",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why does the first layer matter more than other layers?",
+    "Option 1": "It decides print colour",
+    "Option 2": "It decides how well the whole print sticks",
+    "Option 3": "It decides infill",
+    "Option 4": "It decides speed",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "A print looks fine but breaks along layer lines. What is the reason?",
+    "Option 1": "Low bed temperature",
+    "Option 2": "Wrong file format",
+    "Option 3": "Very low infill",
+    "Option 4": "Poor layer bonding",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "Why is infill not kept at 100% for most prints?",
+    "Option 1": "It wastes material and time",
+    "Option 2": "It reduces accuracy",
+    "Option 3": "It causes warping",
+    "Option 4": "It blocks nozzle",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "Why do tall prints sometimes fail halfway?",
+    "Option 1": "Bed is too hot",
+    "Option 2": "File is large",
+    "Option 3": "Stability reduces as height increases",
+    "Option 4": "Printer is slow",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why does rotating a model in slicer improve print quality sometimes?",
+    "Option 1": "Colour changes",
+    "Option 2": "File size reduces",
+    "Option 3": "Layer direction becomes stronger",
+    "Option 4": "Speed increases",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "What is the main reason for nozzle clogging?",
+    "Option 1": "Dust in filament",
+    "Option 2": "Moist or dirty filament",
+    "Option 3": "Bed not level",
+    "Option 4": "Low infill",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "Why does warping happen more at the corners of prints?",
+    "Option 1": "Corners print slower",
+    "Option 2": "Cooling is uneven at edges",
+    "Option 3": "Infill is high",
+    "Option 4": "Nozzle is blocked",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "Why is retraction used during printing?",
+    "Option 1": "To stop printer",
+    "Option 2": "To reduce stringing",
+    "Option 3": "To increase speed",
+    "Option 4": "To cool filament",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why does printing very thin objects fail easily?",
+    "Option 1": "Printer is weak",
+    "Option 2": "Nozzle is large",
+    "Option 3": "Thin walls lack strength",
+    "Option 4": "Speed is low",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "What happens if cooling fan is OFF for PLA prints?",
+    "Option 1": "Layers may droop",
+    "Option 2": "Print stops",
+    "Option 3": "Infill increases",
+    "Option 4": "Speed reduces",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "Why does changing print orientation change strength?",
+    "Option 1": "Colour changes",
+    "Option 2": "Layers align differently",
+    "Option 3": "Infill changes",
+    "Option 4": "Temperature changes",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why is brim used around some prints?",
+    "Option 1": "To improve appearance",
+    "Option 2": "To add strength",
+    "Option 3": "To increase bed adhesion",
+    "Option 4": "To save filament",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why does ABS need an enclosure more than PLA?",
+    "Option 1": "ABS is heavy",
+    "Option 2": "ABS melts faster",
+    "Option 3": "ABS is transparent",
+    "Option 4": "ABS cools unevenly",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "Why is nozzle size important in printing detail?",
+    "Option 1": "It affects colour",
+    "Option 2": "It affects bed size",
+    "Option 3": "It controls layer bonding",
+    "Option 4": "It controls detail level",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "Why does filament grinding happen during printing?",
+    "Option 1": "Motor speed is high",
+    "Option 2": "Filament slips due to blockage",
+    "Option 3": "Infill is low",
+    "Option 4": "Bed is cold",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why are sharp corners difficult to print cleanly?",
+    "Option 1": "Printer is slow",
+    "Option 2": "Filament melts late",
+    "Option 3": "Sudden direction changes affect flow",
+    "Option 4": "Infill is high",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why does a print detach mid-print even if first layer was good?",
+    "Option 1": "Bed cooled suddenly",
+    "Option 2": "Infill reduced",
+    "Option 3": "Speed increased",
+    "Option 4": "Adhesion weakens over time",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "Why are supports printed with gaps from model?",
+    "Option 1": "To save material",
+    "Option 2": "To increase strength",
+    "Option 3": "To make removal easier",
+    "Option 4": "To improve speed",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "Why does reducing layer height increase detail?",
+    "Option 1": "Printer moves slower",
+    "Option 2": "Layers are thinner",
+    "Option 3": "Infill increases",
+    "Option 4": "Temperature rises",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why is calibration important after changing filament brand?",
+    "Option 1": "Colour differs",
+    "Option 2": "Material properties vary",
+    "Option 3": "File becomes invalid",
+    "Option 4": "Bed size changes",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why does a print fail only at higher layers?",
+    "Option 1": "Filament colour changes",
+    "Option 2": "Nozzle temperature drops",
+    "Option 3": "Model becomes unstable as height increases",
+    "Option 4": "Bed leveling is wrong",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why does lowering print speed improve quality sometimes?",
+    "Option 1": "Less vibration and better layer bonding",
+    "Option 2": "Printer cools faster",
+    "Option 3": "Infill increases",
+    "Option 4": "Nozzle gets larger",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "Why does PLA string more in humid conditions?",
+    "Option 1": "PLA absorbs moisture",
+    "Option 2": "Bed temperature is high",
+    "Option 3": "Cooling fan is strong",
+    "Option 4": "Nozzle is wide",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "Why does a print look good but feels weak when pressed?",
+    "Option 1": "Colour is light",
+    "Option 2": "Infill is too low",
+    "Option 3": "Layer height is small",
+    "Option 4": "Bed is cold",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why do diagonal surfaces look rougher than flat ones?",
+    "Option 1": "Printer is faulty",
+    "Option 2": "Layers stack in steps",
+    "Option 3": "Speed is high",
+    "Option 4": "Filament is old",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why does nozzle scraping sound occur during printing?",
+    "Option 1": "Nozzle temperature is low",
+    "Option 2": "Bed is uneven or print is warping",
+    "Option 3": "Printer speed is high",
+    "Option 4": "Infill is high",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "Why is Z-offset adjustment important?",
+    "Option 1": "To change colour",
+    "Option 2": "To control nozzle–bed gap",
+    "Option 3": "To increase speed",
+    "Option 4": "To reduce infill",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why do prints sometimes detach after long printing time?",
+    "Option 1": "Bed cools gradually",
+    "Option 2": "Filament melts late",
+    "Option 3": "Infill is low",
+    "Option 4": "Nozzle clogs",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "Why does overhang quality improve with slower speed?",
+    "Option 1": "More cooling time for material",
+    "Option 2": "Infill increases",
+    "Option 3": "Printer vibrates less",
+    "Option 4": "Bed heats more",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "Why is PETG harder to print cleanly than PLA?",
+    "Option 1": "PETG is weaker",
+    "Option 2": "PETG sticks too well and strings",
+    "Option 3": "PETG cools instantly",
+    "Option 4": "PETG needs no cooling",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why does changing nozzle size affect print strength?",
+    "Option 1": "Colour changes",
+    "Option 2": "Layer width changes bonding",
+    "Option 3": "Speed increases",
+    "Option 4": "Bed temperature changes",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why is raft used instead of brim sometimes?",
+    "Option 1": "To improve appearance",
+    "Option 2": "To reduce infill",
+    "Option 3": "To increase bed contact on uneven beds",
+    "Option 4": "To save filament",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why does print surface look glossy at high temperature?",
+    "Option 1": "Filament burns",
+    "Option 2": "Plastic flows more smoothly",
+    "Option 3": "Cooling fan is OFF",
+    "Option 4": "Speed is low",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why do flexible filaments need slower print speed?",
+    "Option 1": "They are heavier",
+    "Option 2": "They bend in feed path",
+    "Option 3": "They melt faster",
+    "Option 4": "They cool slowly",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "Why does reducing infill too much cause print collapse?",
+    "Option 1": "Walls melt",
+    "Option 2": "Internal support is insufficient",
+    "Option 3": "Temperature drops",
+    "Option 4": "Speed increases",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why are sharp edges often rounded in printed parts?",
+    "Option 1": "Printer is inaccurate",
+    "Option 2": "Material spreads slightly when hot",
+    "Option 3": "Infill is high",
+    "Option 4": "Nozzle is small",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "Why does slicer add extra lines at the start of print?",
+    "Option 1": "To waste filament",
+    "Option 2": "To prime nozzle flow",
+    "Option 3": "To test colour",
+    "Option 4": "To cool bed",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why does print accuracy reduce at very high speed?",
+    "Option 1": "Motors skip steps",
+    "Option 2": "Layers do not align properly",
+    "Option 3": "Bed cools fast",
+    "Option 4": "Filament dries",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why does filament snap during printing?",
+    "Option 1": "Printer is old",
+    "Option 2": "Filament is brittle or moist",
+    "Option 3": "Speed is low",
+    "Option 4": "Nozzle is clean",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why is regular printer calibration important?",
+    "Option 1": "To improve colour",
+    "Option 2": "To maintain consistent quality",
+    "Option 3": "To increase speed",
+    "Option 4": "To reduce layers",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "Why does a print show gaps between lines on the top surface?",
+    "Option 1": "Bed is not level",
+    "Option 2": "Infill is too low",
+    "Option 3": "Nozzle temperature is low",
+    "Option 4": "Cooling fan is off",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why does lowering nozzle temperature sometimes improve print quality?",
+    "Option 1": "Filament flows better",
+    "Option 2": "Reduces stringing and blobs",
+    "Option 3": "Layers become weaker",
+    "Option 4": "Bed adhesion improves",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why do prints sometimes curl upward at the edges?",
+    "Option 1": "Speed is high",
+    "Option 2": "Uneven cooling causes stress",
+    "Option 3": "Infill is low",
+    "Option 4": "File is wrong",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "Why does a print fail only when using a new filament brand?",
+    "Option 1": "Printer is faulty",
+    "Option 2": "Filament properties are different",
+    "Option 3": "Bed is damaged",
+    "Option 4": "Nozzle is blocked",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why does reducing print speed help with small details?",
+    "Option 1": "Less vibration",
+    "Option 2": "More time for accurate movement",
+    "Option 3": "Infill increases",
+    "Option 4": "Bed heats more",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "Why does filament ooze during travel moves?",
+    "Option 1": "Nozzle is cold",
+    "Option 2": "Retraction is insufficient",
+    "Option 3": "Infill is high",
+    "Option 4": "Bed is uneven",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why is bed temperature higher for ABS than PLA?",
+    "Option 1": "ABS melts faster",
+    "Option 2": "ABS shrinks more while cooling",
+    "Option 3": "ABS prints faster",
+    "Option 4": "ABS is flexible",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why does over-extrusion cause rough surfaces?",
+    "Option 1": "Printer is slow",
+    "Option 2": "Too much material is pushed out",
+    "Option 3": "Cooling fan is off",
+    "Option 4": "Layer height is small",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why does print strength reduce when cooling fan is too strong?",
+    "Option 1": "Filament cracks",
+    "Option 2": "Layers do not bond well",
+    "Option 3": "Infill reduces",
+    "Option 4": "Temperature rises",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "Why does slicer sometimes add pauses during print?",
+    "Option 1": "To waste time",
+    "Option 2": "To allow cooling at layers",
+    "Option 3": "To increase infill",
+    "Option 4": "To reduce speed",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why do tall thin prints wobble during printing?",
+    "Option 1": "Printer is loose",
+    "Option 2": "Base area is too small",
+    "Option 3": "Infill is high",
+    "Option 4": "Nozzle is wide",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "Why does print quality drop after long printing time?",
+    "Option 1": "Printer heats up",
+    "Option 2": "Filament absorbs moisture",
+    "Option 3": "Motors lose steps",
+    "Option 4": "Bed cools",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why does a print stick too strongly to the bed?",
+    "Option 1": "Bed too cold",
+    "Option 2": "Adhesive too strong",
+    "Option 3": "Infill is high",
+    "Option 4": "Speed is low",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why does filament snap near the feeder gear?",
+    "Option 1": "Gear is sharp",
+    "Option 2": "Filament is brittle",
+    "Option 3": "Nozzle clogged",
+    "Option 4": "Bed too hot",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "Why does slicer warn about unsupported overhangs?",
+    "Option 1": "File is corrupted",
+    "Option 2": "Overhang angle is too steep",
+    "Option 3": "Printer is slow",
+    "Option 4": "Infill is low",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why does reducing layer height improve surface finish?",
+    "Option 1": "More layers are printed",
+    "Option 2": "Printer moves faster",
+    "Option 3": "Temperature increases",
+    "Option 4": "Infill changes",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "Why does printer skip layers during fast printing?",
+    "Option 1": "Bed not level",
+    "Option 2": "Motors miss steps",
+    "Option 3": "Filament too thick",
+    "Option 4": "Nozzle too small",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why does print look glossy in some areas and dull in others?",
+    "Option 1": "Colour mismatch",
+    "Option 2": "Temperature changes during print",
+    "Option 3": "Infill difference",
+    "Option 4": "Fan speed constant",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why is a purge line printed before the main object?",
+    "Option 1": "To decorate",
+    "Option 2": "To ensure smooth filament flow",
+    "Option 3": "To cool nozzle",
+    "Option 4": "To test bed",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why does reducing infill too much affect durability?",
+    "Option 1": "Walls melt",
+    "Option 2": "Internal support is weak",
+    "Option 3": "Speed increases",
+    "Option 4": "Temperature drops",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "Why does a print show visible gaps between layers?",
+    "Option 1": "Bed is cold",
+    "Option 2": "Infill is high",
+    "Option 3": "Poor layer bonding",
+    "Option 4": "File is wrong",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why does lowering print speed help complex designs?",
+    "Option 1": "Improves accuracy and control",
+    "Option 2": "Uses more material",
+    "Option 3": "Increases heat",
+    "Option 4": "Reduces infill",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "Why does a print become soft when left in a hot car?",
+    "Option 1": "It absorbs moisture",
+    "Option 2": "It is hollow",
+    "Option 3": "PLA softens at low heat",
+    "Option 4": "Infill melts",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "Why does slicer warn about thin walls?",
+    "Option 1": "Printer is slow",
+    "Option 2": "Walls may not print properly",
+    "Option 3": "Colour mismatch",
+    "Option 4": "Bed is uneven",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why does increasing infill improve strength up to a limit?",
+    "Option 1": "More internal support",
+    "Option 2": "Less material used",
+    "Option 3": "Layers get thinner",
+    "Option 4": "Surface becomes smooth",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "Why do layers shift suddenly during printing?",
+    "Option 1": "File is large",
+    "Option 2": "Bed is hot",
+    "Option 3": "Motors miss steps",
+    "Option 4": "Infill is low",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why is first-layer speed kept slower than others?",
+    "Option 1": "To save time",
+    "Option 2": "To improve bed adhesion",
+    "Option 3": "To reduce infill",
+    "Option 4": "To cool filament",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why does filament jam near the hotend?",
+    "Option 1": "Bed is uneven",
+    "Option 2": "Speed is low",
+    "Option 3": "Infill is high",
+    "Option 4": "Heat creep softens filament early",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "Why does print strength reduce when layers are too thick?",
+    "Option 1": "Material melts",
+    "Option 2": "Bonding between layers weakens",
+    "Option 3": "Printer slows",
+    "Option 4": "Bed cools",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why is nozzle height rechecked after bed leveling?",
+    "Option 1": "To change colour",
+    "Option 2": "To increase speed",
+    "Option 3": "To improve infill",
+    "Option 4": "To maintain correct gap",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "Why do very small details fail to print?",
+    "Option 1": "Printer is old",
+    "Option 2": "Nozzle size limits detail",
+    "Option 3": "Bed is hot",
+    "Option 4": "Speed is low",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why does changing cooling fan speed affect surface quality?",
+    "Option 1": "Colour changes",
+    "Option 2": "File changes",
+    "Option 3": "Temperature control changes",
+    "Option 4": "Infill reduces",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "Why does reducing layer height increase printing time?",
+    "Option 1": "More layers are printed",
+    "Option 2": "Printer slows",
+    "Option 3": "Infill increases",
+    "Option 4": "Temperature rises",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "Why are bridges printed slower than normal layers?",
+    "Option 1": "To save material",
+    "Option 2": "To allow material to stretch without sagging",
+    "Option 3": "To reduce noise",
+    "Option 4": "To cool bed",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why does over-extrusion make prints inaccurate?",
+    "Option 1": "Less material flows",
+    "Option 2": "Too much material distorts shape",
+    "Option 3": "Printer stops",
+    "Option 4": "Bed cools",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "Why is calibration needed after nozzle change?",
+    "Option 1": "Colour changes",
+    "Option 2": "Flow and height change",
+    "Option 3": "Speed increases",
+    "Option 4": "Infill reduces",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why does print quality vary between identical prints?",
+    "Option 1": "Printer memory",
+    "Option 2": "Small environmental changes",
+    "Option 3": "File changes",
+    "Option 4": "Infill varies",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "Why does a clogged nozzle cause under-extrusion?",
+    "Option 1": "Bed too hot",
+    "Option 2": "Motor slow",
+    "Option 3": "Less material comes out",
+    "Option 4": "Infill is low",
+    "Answer": "Option 4"
+  },
+  {
+    "Question": "Why is filament drying recommended before long prints?",
+    "Option 1": "To save power",
+    "Option 2": "To reduce moisture defects",
+    "Option 3": "To improve colour",
+    "Option 4": "To reduce layers",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why does reducing acceleration improve print quality?",
+    "Option 1": "Printer heats more",
+    "Option 2": "Speed reduces",
+    "Option 3": "Movement becomes smoother",
+    "Option 4": "Infill increases",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why does ice float on water?",
+    "Option 1": "Ice is lighter",
+    "Option 2": "Ice has air",
+    "Option 3": "Ice is less dense than water",
+    "Option 4": "Ice is cold",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why does a metal spoon feel colder than a wooden spoon at same temperature?",
+    "Option 1": "Metal is heavier",
+    "Option 2": "Metal conducts heat faster",
+    "Option 3": "Wood stores heat",
+    "Option 4": "Metal is shiny",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why do we see lightning before thunder?",
+    "Option 1": "Lightning is brighter",
+    "Option 2": "Sound travels slower than light",
+    "Option 3": "Thunder is weak",
+    "Option 4": "Clouds block sound",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why is wearing cotton clothes better in summer?",
+    "Option 1": "Cotton is cheap",
+    "Option 2": "Cotton absorbs sweat and allows cooling",
+    "Option 3": "Cotton looks light",
+    "Option 4": "Cotton blocks heat",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why does a mirror reverse left and right but not up and down?",
+    "Option 1": "Mirror rotates image",
+    "Option 2": "Our brain compares directions",
+    "Option 3": "Light bends upward",
+    "Option 4": "Gravity acts sideways",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why do plants appear green to us?",
+    "Option 1": "They absorb green light",
+    "Option 2": "They reflect green light",
+    "Option 3": "Green light is strongest",
+    "Option 4": "Sunlight is green",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why does a pressure cooker cook food faster?",
+    "Option 1": "It uses electricity",
+    "Option 2": "Pressure raises boiling point of water",
+    "Option 3": "Steam enters food",
+    "Option 4": "Flame is stronger",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why do tyres have grooves?",
+    "Option 1": "To look good",
+    "Option 2": "To increase friction and grip",
+    "Option 3": "To reduce weight",
+    "Option 4": "To save rubber",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why does sweat cool our body?",
+    "Option 1": "Sweat is cold",
+    "Option 2": "Evaporation removes heat",
+    "Option 3": "Sweat blocks sunlight",
+    "Option 4": "Sweat increases airflow",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why do birds sit on electric wires without shock?",
+    "Option 1": "Birds are insulated",
+    "Option 2": "No potential difference across body",
+    "Option 3": "Current avoids birds",
+    "Option 4": "Voltage is low",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why does food spoil faster in warm weather?",
+    "Option 1": "Bacteria grow faster in heat",
+    "Option 2": "Air pressure is low",
+    "Option 3": "Water evaporates",
+    "Option 4": "Food becomes soft",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "Why do metals expand when heated?",
+    "Option 1": "Atoms vibrate more",
+    "Option 2": "Mass increases",
+    "Option 3": "Density increases",
+    "Option 4": "Shape changes randomly",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "Why does a moving bicycle not fall easily?",
+    "Option 1": "Air supports it",
+    "Option 2": "Gyroscopic effect and balance",
+    "Option 3": "Tyres are thick",
+    "Option 4": "Rider controls fully",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why does sound not travel in vacuum?",
+    "Option 1": "Sound is weak",
+    "Option 2": "Sound needs a medium",
+    "Option 3": "Vacuum absorbs sound",
+    "Option 4": "Space is silent",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why do we see stars twinkling?",
+    "Option 1": "Stars change brightness",
+    "Option 2": "Atmosphere bends light",
+    "Option 3": "Earth moves fast",
+    "Option 4": "Clouds block light",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why does oil float on water?",
+    "Option 1": "Oil is lighter",
+    "Option 2": "Oil is less dense",
+    "Option 3": "Oil repels water",
+    "Option 4": "Oil spreads",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why does glass break into sharp pieces?",
+    "Option 1": "Glass is hard",
+    "Option 2": "Glass has no crystal structure",
+    "Option 3": "Glass cools fast",
+    "Option 4": "Glass absorbs heat",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why does stretching rubber band make it warm?",
+    "Option 1": "Friction with air",
+    "Option 2": "Energy converts to heat",
+    "Option 3": "Rubber stores energy",
+    "Option 4": "Air pressure increases",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why do we feel tired after long use of mobile phone?",
+    "Option 1": "Screen is bright",
+    "Option 2": "Eyes and brain get strained",
+    "Option 3": "Radiation is strong",
+    "Option 4": "Battery heats",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why do tall buildings sway slightly?",
+    "Option 1": "Wind pushes them",
+    "Option 2": "To absorb energy safely",
+    "Option 3": "Foundation is weak",
+    "Option 4": "Earth vibrates",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why does a shadow change size during the day?",
+    "Option 1": "Sun changes colour",
+    "Option 2": "Distance of Sun angle changes",
+    "Option 3": "Earth moves closer",
+    "Option 4": "Air bends light",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why do we add salt on icy roads in cold countries?",
+    "Option 1": "To melt ice faster",
+    "Option 2": "To increase friction",
+    "Option 3": "To cool roads",
+    "Option 4": "To absorb water",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "Why does a ball bounce less on sand than on concrete?",
+    "Option 1": "Sand is lighter",
+    "Option 2": "Sand absorbs energy",
+    "Option 3": "Sand is hot",
+    "Option 4": "Air pressure is low",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why do astronauts feel weightless in space?",
+    "Option 1": "Gravity is zero",
+    "Option 2": "They fall freely with spacecraft",
+    "Option 3": "Space has air",
+    "Option 4": "Earth pulls less",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why does metal rust faster near sea?",
+    "Option 1": "More sunlight",
+    "Option 2": "More moisture and salt",
+    "Option 3": "Less oxygen",
+    "Option 4": "High pressure",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why does a pressure cooker whistle?",
+    "Option 1": "Steam escapes suddenly",
+    "Option 2": "Temperature drops",
+    "Option 3": "Lid vibrates",
+    "Option 4": "Water boils slowly",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "Why are railway tracks given small gaps?",
+    "Option 1": "To reduce noise",
+    "Option 2": "To allow expansion in heat",
+    "Option 3": "To save metal",
+    "Option 4": "To increase strength",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why do we see rainbow after rain?",
+    "Option 1": "Clouds reflect light",
+    "Option 2": "Sunlight splits in water drops",
+    "Option 3": "Rain cools air",
+    "Option 4": "Light becomes weak",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why does a pencil look bent in water?",
+    "Option 1": "Pencil bends",
+    "Option 2": "Light changes direction",
+    "Option 3": "Water bends object",
+    "Option 4": "Eye defect",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why do food packets have expiry dates?",
+    "Option 1": "Food changes colour",
+    "Option 2": "Quality reduces over time",
+    "Option 3": "Weight increases",
+    "Option 4": "Smell disappears",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why does a fan cool us even though it does not reduce room temperature?",
+    "Option 1": "Air becomes cold",
+    "Option 2": "Sweat evaporates faster",
+    "Option 3": "Fan gives oxygen",
+    "Option 4": "Air pressure drops",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why does iron sink but a ship floats?",
+    "Option 1": "Ship is hollow",
+    "Option 2": "Ship is heavy",
+    "Option 3": "Iron attracts water",
+    "Option 4": "Water pushes ship",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "Why do we hear echo in big halls?",
+    "Option 1": "Sound is loud",
+    "Option 2": "Sound reflects back",
+    "Option 3": "Air vibrates",
+    "Option 4": "Walls absorb sound",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why does wet soil smell after rain?",
+    "Option 1": "Water has smell",
+    "Option 2": "Bacteria release gases",
+    "Option 3": "Air pressure drops",
+    "Option 4": "Plants react",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why does milk spoil faster outside refrigerator?",
+    "Option 1": "Air enters milk",
+    "Option 2": "Bacteria grow faster in warmth",
+    "Option 3": "Milk absorbs heat",
+    "Option 4": "Light spoils milk",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why do we wear helmets while riding bikes?",
+    "Option 1": "To look safe",
+    "Option 2": "To protect head from impact",
+    "Option 3": "To reduce speed",
+    "Option 4": "To block wind",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why does aluminium foil keep food warm?",
+    "Option 1": "It heats food",
+    "Option 2": "It reflects heat",
+    "Option 3": "It absorbs heat",
+    "Option 4": "It blocks air",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why do trees sway but do not break easily?",
+    "Option 1": "They are light",
+    "Option 2": "They are flexible",
+    "Option 3": "Wind is weak",
+    "Option 4": "Roots are short",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why does sound travel faster in water than air?",
+    "Option 1": "Water is lighter",
+    "Option 2": "Water particles are closer",
+    "Option 3": "Water is colder",
+    "Option 4": "Air blocks sound",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why does a steel ship float but a steel block sinks?",
+    "Option 1": "Ship is lighter",
+    "Option 2": "Ship has larger volume",
+    "Option 3": "Ship displaces more water",
+    "Option 4": "Steel changes property",
+    "Answer": "Option 3"
+  },
+  {
+    "Question": "Why does ice melt faster on a metal plate than on a wooden plate?",
+    "Option 1": "Metal is colder",
+    "Option 2": "Metal transfers heat faster",
+    "Option 3": "Wood absorbs ice",
+    "Option 4": "Air melts ice",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why does closing windows reduce outside noise?",
+    "Option 1": "Glass absorbs sound",
+    "Option 2": "Sound reflects back",
+    "Option 3": "Less air enters",
+    "Option 4": "Noise disappears",
+    "Answer": "Option 1"
+  },
+  {
+    "Question": "Why do we feel giddy after spinning fast?",
+    "Option 1": "Blood pressure drops",
+    "Option 2": "Brain loses balance signals",
+    "Option 3": "Eyes stop working",
+    "Option 4": "Air pressure changes",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why does a hot cup crack when cold water is poured into it?",
+    "Option 1": "Cup is old",
+    "Option 2": "Sudden temperature change",
+    "Option 3": "Water pressure is high",
+    "Option 4": "Glass absorbs water",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why does a candle flame flicker in wind?",
+    "Option 1": "Wax melts",
+    "Option 2": "Oxygen supply changes",
+    "Option 3": "Fire moves",
+    "Option 4": "Heat escapes",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why does stretching a spring require effort?",
+    "Option 1": "Spring is heavy",
+    "Option 2": "Energy is stored in spring",
+    "Option 3": "Air resists motion",
+    "Option 4": "Length increases",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why do we see lightning before hearing thunder?",
+    "Option 1": "Thunder is weak",
+    "Option 2": "Light travels faster than sound",
+    "Option 3": "Clouds block sound",
+    "Option 4": "Air absorbs sound",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why does a wet road appear shiny at night?",
+    "Option 1": "Road becomes smooth",
+    "Option 2": "Water reflects light",
+    "Option 3": "Road heats up",
+    "Option 4": "Colour changes",
+    "Answer": "Option 2"
+  },
+  {
+    "Question": "Why do pressure cookers have safety valves?",
+    "Option 1": "To release steam safely",
+    "Option 2": "To increase pressure",
+    "Option 3": "To cool food",
+    "Option 4": "To make noise",
+    "Answer": "Option 1"
   }
 ]

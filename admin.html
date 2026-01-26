@@ -41,6 +41,20 @@
     <p>Conducted by School ATL</p>
   </div>
 
+  <!-- ✅ STATS + SORT CONTROLS (ONLY ADDITION) -->
+  <div style="display:flex;gap:20px;flex-wrap:wrap;margin-bottom:15px;align-items:center;">
+    <div><b>Total Participants:</b> <span id="totalParticipants">0</span></div>
+    <div><b>Average Score:</b> <span id="averageScore">0</span></div>
+
+    <select id="sortBy" onchange="applySort()">
+      <option value="">Sort By</option>
+      <option value="scoreAsc">Score ↑</option>
+      <option value="scoreDesc">Score ↓</option>
+      <option value="dateAsc">Date ↑</option>
+      <option value="dateDesc">Date ↓</option>
+    </select>
+  </div>
+
   <div class="table-wrapper">
     <table>
       <thead>
@@ -87,8 +101,9 @@ const firebaseConfig = {
 if (!firebase.apps.length) {
   firebase.initializeApp(firebaseConfig);
 }
-
 window.db = firebase.firestore();
+
+let allResults = [];
 
 /************************************************
  * ADMIN LOGIN CHECK
@@ -106,77 +121,69 @@ function checkAdmin() {
 }
 
 /************************************************
- * LOAD RESULTS (SAFE VERSION)
+ * LOAD RESULTS
  ************************************************/
 function loadResults() {
   const table = document.getElementById("resultsTable");
-  let count = 1;
 
-  if (!window.db) {
-    table.innerHTML = `
-      <tr>
-        <td colspan="5" style="text-align:center;color:red;">
-          Firestore not initialized
-        </td>
-      </tr>`;
-    return;
-  }
+  db.collection("atl_results").get().then(snapshot => {
+    allResults = snapshot.docs.map(d => d.data());
 
-  db.collection("atl_results")
-    .get()
-    .then(snapshot => {
-      table.innerHTML = "";
-
-      if (snapshot.empty) {
-        table.innerHTML = `
-          <tr>
-            <td colspan="5" style="text-align:center;">
-              No results found
-            </td>
-          </tr>`;
-        return;
-      }
-
-      const docs = snapshot.docs
-        .map(d => d.data())
-        .sort((a, b) => {
-          if (!a.createdAt) return 1;
-          if (!b.createdAt) return -1;
-          return b.createdAt.seconds - a.createdAt.seconds;
-        });
-
-      docs.forEach(d => {
-        const dateText = d.createdAt
-          ? d.createdAt.toDate().toLocaleString()
-          : "—";
-
-        const percentage = d.percentage !== undefined
-          ? d.percentage + "%"
-          : "—";
-
-        table.innerHTML += `
-          <tr>
-            <td>${count++}</td>
-            <td>${d.name || "—"}</td>
-            <td class="score">${d.score} / ${d.total}</td>
-            <td>${percentage}</td>
-            <td>${dateText}</td>
-          </tr>`;
-      });
-    })
-    .catch(error => {
-      console.error("Admin Firestore error:", error);
-      table.innerHTML = `
-        <tr>
-          <td colspan="5" style="text-align:center;color:red;">
-            Failed to load results
-          </td>
-        </tr>`;
-    });
+    updateStats();
+    renderTable(allResults);
+  });
 }
 
 /************************************************
- * EXPOSE FUNCTIONS (BUG FIX)
+ * STATS
+ ************************************************/
+function updateStats() {
+  const total = allResults.length;
+  const sum = allResults.reduce((a, b) => a + (b.score || 0), 0);
+
+  document.getElementById("totalParticipants").innerText = total;
+  document.getElementById("averageScore").innerText =
+    total === 0 ? 0 : (sum / total).toFixed(2);
+}
+
+/************************************************
+ * SORT
+ ************************************************/
+function applySort() {
+  const type = document.getElementById("sortBy").value;
+  let data = [...allResults];
+
+  if (type === "scoreAsc") data.sort((a,b) => a.score - b.score);
+  if (type === "scoreDesc") data.sort((a,b) => b.score - a.score);
+  if (type === "dateAsc") data.sort((a,b) => a.createdAt.seconds - b.createdAt.seconds);
+  if (type === "dateDesc") data.sort((a,b) => b.createdAt.seconds - a.createdAt.seconds);
+
+  renderTable(data);
+}
+
+/************************************************
+ * RENDER TABLE
+ ************************************************/
+function renderTable(data) {
+  const table = document.getElementById("resultsTable");
+  table.innerHTML = "";
+  let count = 1;
+
+  data.forEach(d => {
+    const dateText = d.createdAt ? d.createdAt.toDate().toLocaleString() : "—";
+    table.innerHTML += `
+      <tr>
+        <td>${count++}</td>
+        <td>${d.name || "—"}</td>
+        <td>${d.score} / ${d.total}</td>
+        <td>${d.percentage}%</td>
+        <td>${dateText}</td>
+      </tr>`;
+  });
+}
+
+/************************************************
+ * EXPOSE
  ************************************************/
 window.checkAdmin = checkAdmin;
 </script>
