@@ -18,7 +18,7 @@
       apiKey: "AIzaSyD0iMfVye_Mi-C8Cvaqm6p6YAzip29UGh0",
       authDomain: "atl-quiz-41936.firebaseapp.com",
       projectId: "atl-quiz-41936",
-      storageBucket: "atl-quiz-41936.firebasestorage.app",
+      storageBucket: "atl-quiz-41936.appspot.com", <!-- ✅ FIXED -->
       messagingSenderId: "597852932899",
       appId: "1:597852932899:web:9dad49c19e65d8bd259a96"
     };
@@ -190,7 +190,8 @@
   </div>
 </div>
 
-<script src="script.js"></script>
+<!-- ✅ defer ensures Firebase is ready -->
+<script src="script.js" defer></script>
 <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
 <script>

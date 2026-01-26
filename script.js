@@ -142,7 +142,7 @@ function nextQuestion() {
 }
 
 /************************************************
- * FINISH QUIZ (FIXED ORDER)
+ * FINISH QUIZ
  ************************************************/
 function finishQuiz() {
   calculateScore();
@@ -150,7 +150,7 @@ function finishQuiz() {
   document.getElementById("quizScreen").classList.add("hidden");
   document.getElementById("resultScreen").classList.remove("hidden");
 
-  buildReview(); // 🔥 build FIRST
+  buildReview();
 
   document.getElementById("reviewWrapper").style.display = "block";
   document.getElementById("toggleReviewBtn").innerText = "Hide Answer Review";
@@ -259,23 +259,23 @@ function animateScoreRing() {
 }
 
 /************************************************
- * CONFETTI
+ * CONFETTI (SAFE)
  ************************************************/
 function launchConfettiIfHighScore() {
   if ((score / quizQuestions.length) * 100 < 60) return;
-  confetti({ particleCount: 150, spread: 80, origin: { y: 0.6 } });
+  if (typeof confetti === "function") {
+    confetti({ particleCount: 150, spread: 80, origin: { y: 0.6 } });
+  }
 }
 
 /************************************************
  * FIREBASE SAVE
  ************************************************/
 function saveResultToFirebase() {
-  if (!window.db) {
+  if (!window.db || !firebase?.firestore) {
     console.error("Firestore not initialized");
     return;
   }
-
-  console.log("Saving result to Firestore...");
 
   const detailedAnswers = quizQuestions.map((q, i) => ({
     question: q.QUESTION,
@@ -295,3 +295,12 @@ function saveResultToFirebase() {
   .then(() => console.log("Result saved successfully"))
   .catch(err => console.error("Firebase save error:", err));
 }
+
+/************************************************
+ * EXPOSE FUNCTIONS (BUG FIX)
+ ************************************************/
+window.startQuiz = startQuiz;
+window.selectOption = selectOption;
+window.nextQuestion = nextQuestion;
+window.goBack = goBack;
+window.toggleReview = toggleReview;

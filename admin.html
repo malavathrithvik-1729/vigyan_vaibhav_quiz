@@ -88,7 +88,7 @@ if (!firebase.apps.length) {
   firebase.initializeApp(firebaseConfig);
 }
 
-const db = firebase.firestore();
+window.db = firebase.firestore();
 
 /************************************************
  * ADMIN LOGIN CHECK
@@ -112,6 +112,16 @@ function loadResults() {
   const table = document.getElementById("resultsTable");
   let count = 1;
 
+  if (!window.db) {
+    table.innerHTML = `
+      <tr>
+        <td colspan="5" style="text-align:center;color:red;">
+          Firestore not initialized
+        </td>
+      </tr>`;
+    return;
+  }
+
   db.collection("atl_results")
     .get()
     .then(snapshot => {
@@ -127,7 +137,6 @@ function loadResults() {
         return;
       }
 
-      // Convert to array and sort safely
       const docs = snapshot.docs
         .map(d => d.data())
         .sort((a, b) => {
@@ -165,6 +174,11 @@ function loadResults() {
         </tr>`;
     });
 }
+
+/************************************************
+ * EXPOSE FUNCTIONS (BUG FIX)
+ ************************************************/
+window.checkAdmin = checkAdmin;
 </script>
 
 </body>
