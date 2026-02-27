@@ -60,15 +60,17 @@
       <thead>
         <tr>
           <th>S.No</th>
-          <th>Name</th>
-          <th>Score</th>
-          <th>Percentage</th>
-          <th>Date & Time</th>
+<th>Name</th>
+<th>Location</th>
+<th>Occupation</th>
+<th>Score</th>
+<th>Percentage</th>
+<th>Date & Time</th>
         </tr>
       </thead>
       <tbody id="resultsTable">
         <tr>
-          <td colspan="5" style="text-align:center;">Loading results…</td>
+          <td colspan="7" style="text-align:center;">Loading results…</td>
         </tr>
       </tbody>
     </table>
@@ -90,12 +92,12 @@ const ADMIN_PASSWORD = "atl@science2025";
  * FIREBASE INIT
  ************************************************/
 const firebaseConfig = {
-  apiKey: "AIzaSyD0iMfVye_Mi-C8Cvaqm6p6YAzip29UGh0",
-  authDomain: "atl-quiz-41936.firebaseapp.com",
-  projectId: "atl-quiz-41936",
-  storageBucket: "atl-quiz-41936.firebasestorage.app",
-  messagingSenderId: "597852932899",
-  appId: "1:597852932899:web:9dad49c19e65d8bd259a96"
+  apiKey: "AIzaSyA9sYIRJhTlFdDWoLv5nNlp0fMgB_9kM-Q",
+      authDomain: "vigyan-vaibhav.firebaseapp.com",
+      projectId: "vigyan-vaibhav",
+      storageBucket: "vigyan-vaibhav.firebasestorage.app",
+      messagingSenderId: "976949269074",
+      appId: "1:976949269074:web:472997e28037179817058b"
 };
 
 if (!firebase.apps.length) {
@@ -126,7 +128,7 @@ function checkAdmin() {
 function loadResults() {
   const table = document.getElementById("resultsTable");
 
-  db.collection("atl_results").get().then(snapshot => {
+  db.collection("space_innovation_results").get().then(snapshot => {
     allResults = snapshot.docs.map(d => d.data());
 
     updateStats();
@@ -153,10 +155,14 @@ function applySort() {
   const type = document.getElementById("sortBy").value;
   let data = [...allResults];
 
-  if (type === "scoreAsc") data.sort((a,b) => a.score - b.score);
-  if (type === "scoreDesc") data.sort((a,b) => b.score - a.score);
-  if (type === "dateAsc") data.sort((a,b) => a.createdAt.seconds - b.createdAt.seconds);
-  if (type === "dateDesc") data.sort((a,b) => b.createdAt.seconds - a.createdAt.seconds);
+  if (type === "scoreAsc") data.sort((a,b) => (a.score||0) - (b.score||0));
+  if (type === "scoreDesc") data.sort((a,b) => (b.score||0) - (a.score||0));
+
+  if (type === "dateAsc")
+    data.sort((a,b) => (a.createdAt?.seconds||0) - (b.createdAt?.seconds||0));
+
+  if (type === "dateDesc")
+    data.sort((a,b) => (b.createdAt?.seconds||0) - (a.createdAt?.seconds||0));
 
   renderTable(data);
 }
@@ -169,12 +175,25 @@ function renderTable(data) {
   table.innerHTML = "";
   let count = 1;
 
+  if (data.length === 0) {
+    table.innerHTML = `
+      <tr>
+        <td colspan="7" style="text-align:center;">No results found</td>
+      </tr>`;
+    return;
+  }
+
   data.forEach(d => {
-    const dateText = d.createdAt ? d.createdAt.toDate().toLocaleString() : "—";
+    const dateText = d.createdAt
+      ? d.createdAt.toDate().toLocaleString()
+      : "—";
+
     table.innerHTML += `
       <tr>
         <td>${count++}</td>
         <td>${d.name || "—"}</td>
+        <td>${d.location || "—"}</td>
+        <td>${d.occupation || "—"}</td>
         <td>${d.score} / ${d.total}</td>
         <td>${d.percentage}%</td>
         <td>${dateText}</td>

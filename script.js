@@ -8,7 +8,8 @@ let score = 0;
 let userAnswers = [];
 let visitedQuestions = [];
 let username = "";
-
+let userLocation = "";
+let userOccupation = "";
 /************************************************
  * LOAD QUESTIONS
  ************************************************/
@@ -34,10 +35,15 @@ fetch("questions.json")
  ************************************************/
 function startQuiz() {
   const nameInput = document.getElementById("usernameInput");
-  username = nameInput.value.trim();
+  const locationInput = document.getElementById("locationInput");
+  const occupationInput = document.getElementById("occupationInput");
 
-  if (!username) {
-    alert("Please enter your name");
+  username = nameInput.value.trim();
+  userLocation = locationInput.value.trim();
+  userOccupation = occupationInput.value.trim();
+
+  if (!username || !userLocation || !userOccupation) {
+    alert("Please enter Name, Location and Occupation");
     return;
   }
 
@@ -295,9 +301,11 @@ function saveResultToFirebase() {
     isCorrect: userAnswers[i] === Number(q.Answer.split(" ")[1])
   }));
 
-  db.collection("atl_results").add({
+  db.collection("space_innovation_results").add({
     name: username,
-    score,
+    location: userLocation,
+    occupation: userOccupation,
+    score: score,
     total: quizQuestions.length,
     percentage: Math.round((score / quizQuestions.length) * 100),
     answers: detailedAnswers,
@@ -306,7 +314,6 @@ function saveResultToFirebase() {
   .then(() => console.log("Result saved successfully"))
   .catch(err => console.error("Firebase save error:", err));
 }
-
 /************************************************
  * EXPOSE FUNCTIONS
  ************************************************/

@@ -15,12 +15,12 @@
   <!-- 🔥 FIREBASE INIT -->
   <script>
     const firebaseConfig = {
-      apiKey: "AIzaSyD0iMfVye_Mi-C8Cvaqm6p6YAzip29UGh0",
-      authDomain: "atl-quiz-41936.firebaseapp.com",
-      projectId: "atl-quiz-41936",
-      storageBucket: "atl-quiz-41936.appspot.com",
-      messagingSenderId: "597852932899",
-      appId: "1:597852932899:web:9dad49c19e65d8bd259a96"
+      apiKey: "AIzaSyA9sYIRJhTlFdDWoLv5nNlp0fMgB_9kM-Q",
+      authDomain: "vigyan-vaibhav.firebaseapp.com",
+      projectId: "vigyan-vaibhav",
+      storageBucket: "vigyan-vaibhav.firebasestorage.app",
+      messagingSenderId: "976949269074",
+      appId: "1:976949269074:web:472997e28037179817058b"
     };
 
     if (!firebase.apps.length) {
@@ -105,11 +105,25 @@
     <p>Attempt a short quiz of 5 questions</p>
 
     <input
-      type="text"
-      id="usernameInput"
-      placeholder="Enter your name"
-      class="name-input"
-    />
+  type="text"
+  id="usernameInput"
+  placeholder="Enter your name"
+  class="name-input"
+/>
+
+<input
+  type="text"
+  id="locationInput"
+  placeholder="Enter your location"
+  class="name-input"
+/>
+
+<input
+  type="text"
+  id="occupationInput"
+  placeholder="Enter your occupation"
+  class="name-input"
+/>
 
     <button class="primary-btn" onclick="startQuiz()">Start Quiz</button>
   </div>
